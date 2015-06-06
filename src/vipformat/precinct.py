@@ -3,17 +3,18 @@
 
 import csv
 
-from VipFormat import common, electoralDistrict
+from vipformat import common, electoralDistrict
 
 
 def emitPrecinct(line):
+    object_id = line[0]
     d = [
         ('name', line[1]), 
         ('locality_id', line[9]), 
         ('ElectoralDistrictID', electoralDistrict.districtName_city),
         ('ElectoralDistrictID', electoralDistrict.districtName_supervisor(line[9])),
     ]
-    return common.pairlistToXml('Precinct', 'id="'+line[0]+'"', d)
+    return common.pairlistToXml('Precinct', d, object_id=object_id)
 
 def emitAllPrecincts():
     ret = ''

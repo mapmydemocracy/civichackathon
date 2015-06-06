@@ -3653,4 +3653,106 @@
     <number>11</number>
     <type>city-supervisor</type>
 </ElectoralDistrict>
+<Person id="1">
+    <name>Graham, Kent</name>
+</Person>
+<Person id="2">
+    <name>Lee, Ed</name>
+</Person>
+<Person id="3">
+    <name>Pang, Wilma</name>
+</Person>
+<Person id="4">
+    <name>Aviles, Jose R. Milla</name>
+</Person>
+<Person id="5">
+    <name>Digman, Joshua</name>
+</Person>
+<Person id="6">
+    <name>DuPree, Eric</name>
+</Person>
+<Person id="7">
+    <name>Fitch, John</name>
+</Person>
+<Person id="8">
+    <name>Gottschalk, Karla</name>
+</Person>
+<Person id="9">
+    <name>Herrera, Francisco</name>
+</Person>
+<Person id="10">
+    <name>Homran, Bilal</name>
+</Person>
+<Person id="11">
+    <name>Ibn Abdullah, Muhammad-Khalil</name>
+</Person>
+<Person id="12">
+    <name>Lanyadoo, Nissim</name>
+</Person>
+<Person id="13">
+    <name>Jordan, Robert Jr.</name>
+</Person>
+<Person id="14">
+    <name>Lefebvre, Jim</name>
+</Person>
+<Person id="15">
+    <name>McGovern-Calder, Seamus</name>
+</Person>
+<Person id="16">
+    <name>Miller, Harold</name>
+</Person>
+<Person id="17">
+    <name>Mims, Antonio Elmo</name>
+</Person>
+<Person id="18">
+    <name>Mondares, Alexander</name>
+</Person>
+<Person id="19">
+    <name>Nunez, Ignacio L.</name>
+</Person>
+<Person id="20">
+    <name>Petrelis, Michael</name>
+</Person>
+<Person id="21">
+    <name>Richard, Kenneth</name>
+</Person>
+<Person id="22">
+    <name>Siataga, Gaynorann</name>
+</Person>
+<Person id="23">
+    <name>Weiss, Amy Farah</name>
+</Person>
+<Person id="24">
+    <name>Mirkarimi, Ross</name>
+</Person>
+<Person id="25">
+    <name>Hennessy, Vicki</name>
+</Person>
+<Person id="26">
+    <name>Gascon, George</name>
+</Person>
+<Person id="27">
+    <name>Carroll, Thurman Ogden, III</name>
+</Person>
+<Person id="28">
+    <name>Christensen, Julie</name>
+</Person>
+<Person id="29">
+    <name>Peskin, Aaron</name>
+</Person>
+<Person id="30">
+    <name>Herrera, Dennis</name>
+</Person>
+<Person id="31">
+    <name>Aragon, Wendy</name>
+</Person>
+<Person id="32">
+    <name>Temprano, Tom</name>
+</Person>
+<Person id="33">
+    <name>Tham, Joseph</name>
+</Person>
+<Person id="34">
+    <name>Zeng, Jason</name>
+</Person>
 </VipObject>

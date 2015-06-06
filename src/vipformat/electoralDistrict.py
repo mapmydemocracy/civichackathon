@@ -13,7 +13,7 @@ def emitCitywideDistrict():
         ('name', 'San Francisco city'),
         ('type', 'city')
     ]
-    return common.pairlistToXml('ElectoralDistrict', 'id="'+districtName_city+'"', d)
+    return common.pairlistToXml('ElectoralDistrict', d, object_id=districtName_city)
 
 def emitSupervisorDistrict(name):
     d = [
@@ -21,7 +21,8 @@ def emitSupervisorDistrict(name):
         ('number', name),
         ('type', 'city-supervisor'),
     ]
-    return common.pairlistToXml('ElectoralDistrict', 'id="'+districtName_supervisor(name)+'"', d)
+    object_id = districtName_supervisor(name)
+    return common.pairlistToXml('ElectoralDistrict', d, object_id=object_id)
 
     
 def emitAllElectoralDistricts():

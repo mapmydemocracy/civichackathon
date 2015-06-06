@@ -15,7 +15,7 @@ def fix_sys_path():
 
 def main():
     fix_sys_path()
-    from VipFormat.emitAllXml import emitAll
+    from vipformat.emitAllXml import emitAll
     xml = emitAll()
     output_path = 'SF.xml'
     with codecs.open(output_path, 'w', encoding='utf8') as f:
