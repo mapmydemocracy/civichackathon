@@ -1,6 +1,5 @@
 
-import precinct
-import electoralDistrict
+from VipFormat import candidate, electoralDistrict, precinct
 
 
 def emitProlog():
@@ -11,9 +10,11 @@ def emitEpilog():
 
 def emitAll():
     ret = emitProlog()
-    ret = ret + precinct.emitAllPrecincts()
-    ret = ret + electoralDistrict.emitAllElectoralDistricts()
-    ret = ret + emitEpilog()
+    ret += precinct.emitAllPrecincts()
+    ret += electoralDistrict.emitAllElectoralDistricts()
+    ret += candidate.parse_candidates()
+    ret += emitEpilog()
+
     return ret
 
 if __name__=='__main__':

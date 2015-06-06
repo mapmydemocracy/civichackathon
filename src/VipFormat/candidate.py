@@ -43,21 +43,27 @@ import csv
 import common
 
 
-def process_line(line):
+def line_to_xml(line):
     """
     Fields:
       PersonId, Office, Office_ID, CandidatePreElectionStatus, Name,
       Address & Zip, Telephone, Email, FileDate
     """
-    office = line[0]
-    name = line[2]
-    print(office, name)
+    person_id = line[0]
+    name = line[4]
+    d = [
+        ('name', name),
+    ]
+    return common.pairlistToXml('Person', d, object_id=person_id)
 
 
-def make_candidates_xml():
+def parse_candidates():
     base_name = "candidates.csv"
+    xml = ''
     for line in common.csv_lines(base_name):
-        make_candidate_xml(line)
+        xml += line_to_xml(line)
+
+    return xml
 
 
 if __name__=='__main__':
