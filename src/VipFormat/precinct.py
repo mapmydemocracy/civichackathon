@@ -2,16 +2,15 @@
 # specialized for the San Francisco precinct list
 
 import csv
-
-electoralDistrictAll = '0'
+import electoralDistrict
 
 
 def emitPrecinct(line):
     print '<Precinct id='+line[0]+'>'
     print '   <name>'+line[1]+'</name>'
     print '   <locality_id>'+line[9]+'</locality_id>'
-    print  '   <ElectoralDistrictID>'+electoralDistrictAll+'</ElectoralDistrictID>'
-    print  '   <ElectoralDistrictID>'+line[9]+'</ElectoralDistrictID>'
+    print  '   <ElectoralDistrictID>'+electoralDistrict.districtName_city+'</ElectoralDistrictID>'
+    print  '   <ElectoralDistrictID>'+electoralDistrict.districtName_supervisor(line[9])+'</ElectoralDistrictID>'
     print '</Precinct>'
 
 def emitAllPrecincts():
