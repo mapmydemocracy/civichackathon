@@ -3,8 +3,7 @@
 
 import csv
 
-from VipFormat import common
-from VipFormat import electoralDistrict
+from VipFormat import common, electoralDistrict
 
 
 def emitPrecinct(line):

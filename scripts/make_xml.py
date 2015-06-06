@@ -1,4 +1,5 @@
 
+import codecs
 import os
 import sys
 
@@ -16,7 +17,9 @@ def main():
     fix_sys_path()
     from VipFormat.emitAllXml import emitAll
     xml = emitAll()
-    print(xml)
+    output_path = 'SF.xml'
+    with codecs.open(output_path, 'w', encoding='utf8') as f:
+        f.write(xml)
 
 
 if __name__ == '__main__':
