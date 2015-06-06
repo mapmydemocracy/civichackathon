@@ -1,5 +1,5 @@
 
-from VipFormat import candidate, electoralDistrict, precinct
+from vipformat import candidate, electoralDistrict, precinct
 
 
 def emitProlog():
