@@ -19,3 +19,13 @@ def csv_lines(base_name):
         next(csvreader)
         for line in csvreader:
             yield line
+
+def pairlistToXml(elemName, elemParams, contents):
+    ret = '<' + elemName
+    if elemParams:
+        ret = ret + ' ' + elemParams
+    ret = ret + '>\n'
+    for (k,v) in contents:
+        ret = ret + '    <' + k + '>' + v + '</' + k + '>\n'
+    ret = ret + '</' + elemName + '>\n'
+    return ret

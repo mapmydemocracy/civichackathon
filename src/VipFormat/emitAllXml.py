@@ -4,17 +4,17 @@ import electoralDistrict
 
 
 def emitProlog():
-    print '<?xml version="1.0"?>'
-    print '<VipObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="5.0" xsi:noNamespaceSchemaLocation="http://votinginfoproject.github.com/vip-specification/vip_spec.xsd">'
+    return '<?xml version="1.0"?>\n<VipObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="5.0" xsi:noNamespaceSchemaLocation="http://votinginfoproject.github.com/vip-specification/vip_spec.xsd">\n'
 
 def emitEpilog():
-    print '</VipObject>'
+    return '</VipObject>\n'
 
 def emitAll():
-    emitProlog()
-    precinct.emitAllPrecincts()
-    electoralDistrict.emitAllElectoralDistricts()
-    emitEpilog()
+    ret = emitProlog()
+    ret = ret + precinct.emitAllPrecincts()
+    ret = ret + electoralDistrict.emitAllElectoralDistricts()
+    ret = ret + emitEpilog()
+    return ret
 
 if __name__=='__main__':
-    emitAll()
+    print emitAll()
