@@ -15,7 +15,8 @@ def fix_sys_path():
 def main():
     fix_sys_path()
     from VipFormat.emitAllXml import emitAll
-    print(emitAll())
+    xml = emitAll()
+    print(xml)
 
 
 if __name__ == '__main__':
