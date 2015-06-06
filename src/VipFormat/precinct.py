@@ -6,7 +6,7 @@ import electoralDistrict
 
 
 def emitPrecinct(line):
-    print '<Precinct id='+line[0]+'>'
+    print '<Precinct id="'+line[0]+'">'
     print '   <name>'+line[1]+'</name>'
     print '   <locality_id>'+line[9]+'</locality_id>'
     print  '   <ElectoralDistrictID>'+electoralDistrict.districtName_city+'</ElectoralDistrictID>'
