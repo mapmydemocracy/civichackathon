@@ -2,8 +2,9 @@
 # specialized for the San Francisco precinct list
 
 import csv
-import common
-import electoralDistrict
+
+from VipFormat import common
+from VipFormat import electoralDistrict
 
 
 def emitPrecinct(line):
