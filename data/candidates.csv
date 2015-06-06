@@ -1,35 +1,35 @@
-Position,Official/ Potential,Name,Address & Zip,Telephone,Email,dec/int filed
-Mayor,Official,"Graham, Kent",,,,6/2/2015
-Mayor,Official,"Lee, Ed",,415-995-5801,,6/1/2015
-"Board of Supervisors, District 3",Official,"Pang, Wilma","958 Jackson St, 94133",415-296-8701,PanasianSF@yahoo.com,6/3/2015
-Mayor,Potential,"Aviles, Jose R. Milla",141 Stoneridge Ln 94134,415-290-7857,news4960@hotmail.com,2/26/2013
-Mayor,Potential,"Digman, Joshua",,415-858-5304,,1/13/2015
-Mayor,Potential,"DuPree, Eric","290 Turk Street, 94102",415-366-7218,dupreeconsults@usa.com,3/17/2015
-Mayor,Potential,"Fitch, John",,,,1/20/2015
-Mayor,Potential,"Gottschalk, Karla","520 Frederick St Apt 13, 94117",202-643-5052,occupySF@unseen.is,5/11/2015
-Mayor,Potential,"Herrera, Francisco",,,,3/23/2015
-Mayor,Potential,"Homran, Bilal","P.O. Box 425314, 94142",,bahomran@gmail.com,1/30/2015
-Mayor,Potential,"Ibn Abdullah, Muhammad-Khalil",684 Ellis St Apt 203,415-579-8606,ibnAbdullah2016@gmail.com,7/18/2014
-Mayor,Potential,"Lanyadoo, Nissim","692 Valencia St., 94110",415-307-2613,nissimlanyadoo@gmail.com,3/6/2015
-Mayor,Potential,"Jordan, Robert Jr.","129 Golden Gate Ave, Apt 504, 94102",415-567-6886,robertjordan2011@yahoo.com,9/11/2014
-Mayor,Potential,"Lefebvre, Jim",,310-991-4343,jlefave@gmail.com,5/20/2014
-Mayor,Potential,"McGovern-Calder, Seamus",,,,12/5/2014
-Mayor,Potential,"Miller, Harold",107 Biythdale Ave,415-841-0840,harold.miller.for.s.f.mayor@gmail.com,11/18/2011
-Mayor,Potential,"Mims, Antonio Elmo",7 Maddux Ave,415-282-6172,blacklifethethirdtestament@gmail.com,11/28/2011
-Mayor,Potential,"Mondares, Alexander","P.O. Box 12521, 94112",415-573-9067,,3/19/2013
-Mayor,Potential,"Nunez, Ignacio L.",731 Cortland Ave,415-285-8809,ignacio930@hotmail.com,11/30/2012
-Mayor,Potential,"Petrelis, Michael","132 Clinton Park Apt 1, 94103",415-621-6267,,11/6/2014
-Mayor,Potential,"Richard, Kenneth","940 San Jose Ave, 94110",415-690-5609,knnth_richard@yahoo.com,12/11/2014
-Mayor,Potential,"Siataga, Gaynorann","3128 Cesar Chavez St, 94110",415-724-9193,gaynorsiataga@hotmail.com,5/12/2015
-Mayor,Potential,"Weiss, Amy Farah",,,,12/8/2014
-Sheriff,Potential,"Mirkarimi, Ross",,,,1/3/2014
-Sheriff,Potential,"Hennessy, Vicki",,,,1/12/2015
-District Attorney ,Potential,"Gascon, George",,415-553-1741,,
-"Board of Supervisors, District 3",Potential,"Carroll, Thurman Ogden, III",,,,5/14/2015
-"Board of Supervisors, District 3",Potential,"Christensen, Julie","425 Market St., 26th Floor, 94105",415-995-5801,,1/16/2015
-"Board of Supervisors, District 3",Potential,"Peskin, Aaron","470 Columbus #211, 94133",,,3/30/2015
-City Attorney,Potential,"Herrera, Dennis",,,,12/12/2014
-Community College Board,Potential,"Aragon, Wendy","534 2nd Ave #5, 94121",415-350-4765,wendolyn.aragon@gmail.com,4/20/2015
-Community College Board,Potential,"Temprano, Tom","1465 S. Van Ness Ave, 94110",415-622-5301,ttemprano@gmail.com,4/27/2015
-Community College Board,Potential,"Tham, Joseph","2910 Anza St, 94121",415-240-3036,,5/11/2015
-Community College Board,Potential,"Zeng, Jason","258 6th Ave, 94118",415-645-3548,Jsnzeng@gmail.com,5/1/2015
+Office,Office_ID,Official/ Potential,Person_ID,Name,Address & Zip,Telephone,Email,dec/int filed
+Mayor,1,Official,1,"Graham, Kent",,,,6/2/2015
+Mayor,1,Official,2,"Lee, Ed",,415-995-5801,,6/1/2015
+"Board of Supervisors, District 3",10,Official,3,"Pang, Wilma","958 Jackson St, 94133",415-296-8701,PanasianSF@yahoo.com,6/3/2015
+Mayor,1,Potential,4,"Aviles, Jose R. Milla",141 Stoneridge Ln 94134,415-290-7857,news4960@hotmail.com,2/26/2013
+Mayor,1,Potential,5,"Digman, Joshua",,415-858-5304,,1/13/2015
+Mayor,1,Potential,6,"DuPree, Eric","290 Turk Street, 94102",415-366-7218,dupreeconsults@usa.com,3/17/2015
+Mayor,1,Potential,7,"Fitch, John",,,,1/20/2015
+Mayor,1,Potential,8,"Gottschalk, Karla","520 Frederick St Apt 13, 94117",202-643-5052,occupySF@unseen.is,5/11/2015
+Mayor,1,Potential,9,"Herrera, Francisco",,,,3/23/2015
+Mayor,1,Potential,10,"Homran, Bilal","P.O. Box 425314, 94142",,bahomran@gmail.com,1/30/2015
+Mayor,1,Potential,11,"Ibn Abdullah, Muhammad-Khalil",684 Ellis St Apt 203,415-579-8606,ibnAbdullah2016@gmail.com,7/18/2014
+Mayor,1,Potential,12,"Lanyadoo, Nissim","692 Valencia St., 94110",415-307-2613,nissimlanyadoo@gmail.com,3/6/2015
+Mayor,1,Potential,13,"Jordan, Robert Jr.","129 Golden Gate Ave, Apt 504, 94102",415-567-6886,robertjordan2011@yahoo.com,9/11/2014
+Mayor,1,Potential,14,"Lefebvre, Jim",,310-991-4343,jlefave@gmail.com,5/20/2014
+Mayor,1,Potential,15,"McGovern-Calder, Seamus",,,,12/5/2014
+Mayor,1,Potential,16,"Miller, Harold",107 Biythdale Ave,415-841-0840,harold.miller.for.s.f.mayor@gmail.com,11/18/2011
+Mayor,1,Potential,17,"Mims, Antonio Elmo",7 Maddux Ave,415-282-6172,blacklifethethirdtestament@gmail.com,11/28/2011
+Mayor,1,Potential,18,"Mondares, Alexander","P.O. Box 12521, 94112",415-573-9067,,3/19/2013
+Mayor,1,Potential,19,"Nunez, Ignacio L.",731 Cortland Ave,415-285-8809,ignacio930@hotmail.com,11/30/2012
+Mayor,1,Potential,20,"Petrelis, Michael","132 Clinton Park Apt 1, 94103",415-621-6267,,11/6/2014
+Mayor,1,Potential,21,"Richard, Kenneth","940 San Jose Ave, 94110",415-690-5609,knnth_richard@yahoo.com,12/11/2014
+Mayor,1,Potential,22,"Siataga, Gaynorann","3128 Cesar Chavez St, 94110",415-724-9193,gaynorsiataga@hotmail.com,5/12/2015
+Mayor,1,Potential,23,"Weiss, Amy Farah",,,,12/8/2014
+Sheriff,6,Potential,24,"Mirkarimi, Ross",,,,1/3/2014
+Sheriff,6,Potential,25,"Hennessy, Vicki",,,,1/12/2015
+District Attorney ,4,Potential,26,"Gascon, George",,415-553-1741,,
+"Board of Supervisors, District 3",10,Potential,27,"Carroll, Thurman Ogden, III",,,,5/14/2015
+"Board of Supervisors, District 3",10,Potential,28,"Christensen, Julie","425 Market St., 26th Floor, 94105",415-995-5801,,1/16/2015
+"Board of Supervisors, District 3",10,Potential,29,"Peskin, Aaron","470 Columbus #211, 94133",,,3/30/2015
+City Attorney,3,Potential,30,"Herrera, Dennis",,,,12/12/2014
+Community College Board,20,Potential,31,"Aragon, Wendy","534 2nd Ave #5, 94121",415-350-4765,wendolyn.aragon@gmail.com,4/20/2015
+Community College Board,20,Potential,32,"Temprano, Tom","1465 S. Van Ness Ave, 94110",415-622-5301,ttemprano@gmail.com,4/27/2015
+Community College Board,20,Potential,33,"Tham, Joseph","2910 Anza St, 94121",415-240-3036,,5/11/2015
+Community College Board,20,Potential,34,"Zeng, Jason","258 6th Ave, 94118",415-645-3548,Jsnzeng@gmail.com,5/1/2015
