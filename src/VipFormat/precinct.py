@@ -17,7 +17,7 @@ def emitPrecinct(line):
 
 def emitAllPrecincts():
     ret = ''
-    with open('../../data/precincts_20140321.csv', 'rb') as csvfile:
+    with open('data/precincts_20140321.csv', 'rb') as csvfile:
         csvreader = csv.reader(csvfile)
         for line in csvreader:
             if line[0] != 'VotingPrecinctID':   # ignore header line
