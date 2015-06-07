@@ -84,13 +84,13 @@ def line_to_xml(line):
       Address & Zip, Telephone, Email, FileDate
     """
     person_id = line[0]
-    xml = make_contact_info(line, person_id=person_id)
+    contact_info_xml = make_contact_info(line, person_id=person_id)
     name = line[4]
     d = [
-        ('name', name),
+        contact_info_xml,
+        ('Name', name),
     ]
-    xml += pairlistToXml('Person', d, object_id=person_id)
-
+    xml = pairlistToXml('Person', d, object_id=person_id)
     return xml
 
 
