@@ -6,7 +6,7 @@ angular.module('clientApp')
     {
       jurisdictions: [
         {
-          name: 'San Francisco City and County',
+          name: 'jurisdiction_one',
           offices : [
             {
               name: "Mayor",
@@ -25,7 +25,7 @@ angular.module('clientApp')
         
     }
 
-    var parseObjArray = function(objectsArray, name) {
+    o.parseObjArray = function(objectsArray, name) {
       for (var i in objectsArray) {
         if (objectsArray[i].name == name) return objectsArray[i]
       }
@@ -39,11 +39,11 @@ angular.module('clientApp')
 
     o.addOffice = function(jurisdiction, office) {
 
-      var jurisdiction_offices = parseObjArray(o.jurisdictions, jurisdiction);
+      var jurisdiction_offices = o.parseObjArray(o.jurisdictions, jurisdiction);
       console.log(jurisdiction_offices)
-      jurisdiction_offices['offices'].push(office)
+      jurisdiction_offices['offices'].push({name:office, districts:[]})
       console.log(jurisdiction_offices)
-      contests.log('Adding office ', office)
+      console.log('Adding office ', office)
     }
 
     // o.addDistrict = function(jurisdiction, office, district){

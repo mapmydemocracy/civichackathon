@@ -6,9 +6,16 @@ angular.module('clientApp')
       templateUrl : 'components/chForm/chForm.html',
       restrict    : 'EA',
       scope       : {
-        	items     : '=',
-        	title     : '@',
-          type      : '@'
+        	title        : '@',
+          items        : '=',
+          type         : '@',
+          add          : "=",
+          jurisdiction : '=?',
+          office       : '=?',
+          district     : '=?',
+          contest      : '=?',
+          candidate    : '=?',
+
       },
       controller: 'chFormCtrl'
     };
