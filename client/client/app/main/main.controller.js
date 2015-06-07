@@ -6,7 +6,7 @@ angular.module('clientApp')
     $scope.jurisdictions = jurisdictions.jurisdictions;
 
 
-
+   $scope.candidates = jurisdictions.candidates
 
 
     $scope.jurisdiction_name = "San Francisco";
@@ -64,7 +64,7 @@ angular.module('clientApp')
       },
 
       candidate:function(candidate){
-        jurisdictions.addCandidate($scope.newCandidate)
+        jurisdictions.addCandidate(candidate)
       }
     }
 

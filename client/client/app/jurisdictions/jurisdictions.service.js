@@ -49,7 +49,13 @@ angular.module('clientApp')
           name : 'San Francisco Unified School District',
           districts : [] 
         },
-      ]
+      ],
+
+
+      candidates: [
+                        {name: "Julie Christensen"},
+                        {name: "Aaron Peskin"}
+                      ]
         
     }
 
@@ -102,7 +108,7 @@ angular.module('clientApp')
       console.log('Adding contest ', contest)
     }
 
-    o.addCandidate = function(jurisdiction, office, district, contest, candidate){
+    o.addCandidate = function(candidate){
       // o.jurisdictions.jurisdiction.office.district.contest['candidates'].push({name: contest, candidates:[]})
 
 /*      var jurisdiction_offices = parseObjArray(o.jurisdictions, office);
@@ -110,7 +116,7 @@ angular.module('clientApp')
       var office_districts = parseObjArray(jurisdiction_offices, district);
 
       var district_contests = parseObjArray(office_districts)*/
-
+      o.candidates.push({name:candidate})
       // var contest_candidates = parseObjArray(district_contests, candidates)
       console.log('Adding candidate ', candidate)
     }
