@@ -3,6 +3,17 @@
   <State id="state_ca">
     <Name>California</Name>
   </State>
+  <Locality id="locality_1">
+    <ExternalIdentifiers>
+      <ExternalIdentifier>
+        <Type>ocd-id</Type>
+        <Value>ocd-division/country:us/state:va/county:san francisco/city:san francisco</Value>
+      </ExternalIdentifier>
+    </ExternalIdentifiers>
+    <Name>San Francisco</Name>
+    <StateId>state_ca</StateId>
+    <Type>county</Type>
+  </Locality>
   <Precinct id="1101">
     <name>Pct 1101</name>
     <LocalityId>locality_1</LocalityId>
@@ -3662,7 +3673,9 @@
       <Email></Email>
       <Phone></Phone>
     </ContactInformation>
-    <Name>Graham, Kent</Name>
+    <FullName>
+      <Text language="en">Graham, Kent</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_1">
     <BallotName>
@@ -3681,7 +3694,9 @@
       <Email></Email>
       <Phone>415-995-5801</Phone>
     </ContactInformation>
-    <Name>Lee, Ed</Name>
+    <FullName>
+      <Text language="en">Lee, Ed</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_2">
     <BallotName>
@@ -3700,7 +3715,9 @@
       <Email>PanasianSF@yahoo.com</Email>
       <Phone>415-296-8701</Phone>
     </ContactInformation>
-    <Name>Pang, Wilma</Name>
+    <FullName>
+      <Text language="en">Pang, Wilma</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_3">
     <BallotName>
@@ -3719,7 +3736,9 @@
       <Email>news4960@hotmail.com</Email>
       <Phone>415-290-7857</Phone>
     </ContactInformation>
-    <Name>Aviles, Jose R. Milla</Name>
+    <FullName>
+      <Text language="en">Aviles, Jose R. Milla</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_4">
     <BallotName>
@@ -3738,7 +3757,9 @@
       <Email></Email>
       <Phone>415-858-5304</Phone>
     </ContactInformation>
-    <Name>Digman, Joshua</Name>
+    <FullName>
+      <Text language="en">Digman, Joshua</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_5">
     <BallotName>
@@ -3757,7 +3778,9 @@
       <Email>dupreeconsults@usa.com</Email>
       <Phone>415-366-7218</Phone>
     </ContactInformation>
-    <Name>DuPree, Eric</Name>
+    <FullName>
+      <Text language="en">DuPree, Eric</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_6">
     <BallotName>
@@ -3776,7 +3799,9 @@
       <Email></Email>
       <Phone></Phone>
     </ContactInformation>
-    <Name>Fitch, John</Name>
+    <FullName>
+      <Text language="en">Fitch, John</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_7">
     <BallotName>
@@ -3795,7 +3820,9 @@
       <Email>occupySF@unseen.is</Email>
       <Phone>202-643-5052</Phone>
     </ContactInformation>
-    <Name>Gottschalk, Karla</Name>
+    <FullName>
+      <Text language="en">Gottschalk, Karla</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_8">
     <BallotName>
@@ -3814,7 +3841,9 @@
       <Email></Email>
       <Phone></Phone>
     </ContactInformation>
-    <Name>Herrera, Francisco</Name>
+    <FullName>
+      <Text language="en">Herrera, Francisco</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_9">
     <BallotName>
@@ -3833,7 +3862,9 @@
       <Email>bahomran@gmail.com</Email>
       <Phone></Phone>
     </ContactInformation>
-    <Name>Homran, Bilal</Name>
+    <FullName>
+      <Text language="en">Homran, Bilal</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_10">
     <BallotName>
@@ -3852,7 +3883,9 @@
       <Email>ibnAbdullah2016@gmail.com</Email>
       <Phone>415-579-8606</Phone>
     </ContactInformation>
-    <Name>Ibn Abdullah, Muhammad-Khalil</Name>
+    <FullName>
+      <Text language="en">Ibn Abdullah, Muhammad-Khalil</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_11">
     <BallotName>
@@ -3871,7 +3904,9 @@
       <Email>nissimlanyadoo@gmail.com</Email>
       <Phone>415-307-2613</Phone>
     </ContactInformation>
-    <Name>Lanyadoo, Nissim</Name>
+    <FullName>
+      <Text language="en">Lanyadoo, Nissim</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_12">
     <BallotName>
@@ -3890,7 +3925,9 @@
       <Email>robertjordan2011@yahoo.com</Email>
       <Phone>415-567-6886</Phone>
     </ContactInformation>
-    <Name>Jordan, Robert Jr.</Name>
+    <FullName>
+      <Text language="en">Jordan, Robert Jr.</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_13">
     <BallotName>
@@ -3909,7 +3946,9 @@
       <Email>jlefave@gmail.com</Email>
       <Phone>310-991-4343</Phone>
     </ContactInformation>
-    <Name>Lefebvre, Jim</Name>
+    <FullName>
+      <Text language="en">Lefebvre, Jim</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_14">
     <BallotName>
@@ -3928,7 +3967,9 @@
       <Email></Email>
       <Phone></Phone>
     </ContactInformation>
-    <Name>McGovern-Calder, Seamus</Name>
+    <FullName>
+      <Text language="en">McGovern-Calder, Seamus</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_15">
     <BallotName>
@@ -3947,7 +3988,9 @@
       <Email>harold.miller.for.s.f.mayor@gmail.com</Email>
       <Phone>415-841-0840</Phone>
     </ContactInformation>
-    <Name>Miller, Harold</Name>
+    <FullName>
+      <Text language="en">Miller, Harold</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_16">
     <BallotName>
@@ -3966,7 +4009,9 @@
       <Email>blacklifethethirdtestament@gmail.com</Email>
       <Phone>415-282-6172</Phone>
     </ContactInformation>
-    <Name>Mims, Antonio Elmo</Name>
+    <FullName>
+      <Text language="en">Mims, Antonio Elmo</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_17">
     <BallotName>
@@ -3985,7 +4030,9 @@
       <Email></Email>
       <Phone>415-573-9067</Phone>
     </ContactInformation>
-    <Name>Mondares, Alexander</Name>
+    <FullName>
+      <Text language="en">Mondares, Alexander</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_18">
     <BallotName>
@@ -4004,7 +4051,9 @@
       <Email>ignacio930@hotmail.com</Email>
       <Phone>415-285-8809</Phone>
     </ContactInformation>
-    <Name>Nunez, Ignacio L.</Name>
+    <FullName>
+      <Text language="en">Nunez, Ignacio L.</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_19">
     <BallotName>
@@ -4023,7 +4072,9 @@
       <Email></Email>
       <Phone>415-621-6267</Phone>
     </ContactInformation>
-    <Name>Petrelis, Michael</Name>
+    <FullName>
+      <Text language="en">Petrelis, Michael</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_20">
     <BallotName>
@@ -4042,7 +4093,9 @@
       <Email>knnth_richard@yahoo.com</Email>
       <Phone>415-690-5609</Phone>
     </ContactInformation>
-    <Name>Richard, Kenneth</Name>
+    <FullName>
+      <Text language="en">Richard, Kenneth</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_21">
     <BallotName>
@@ -4061,7 +4114,9 @@
       <Email>gaynorsiataga@hotmail.com</Email>
       <Phone>415-724-9193</Phone>
     </ContactInformation>
-    <Name>Siataga, Gaynorann</Name>
+    <FullName>
+      <Text language="en">Siataga, Gaynorann</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_22">
     <BallotName>
@@ -4080,7 +4135,9 @@
       <Email></Email>
       <Phone></Phone>
     </ContactInformation>
-    <Name>Weiss, Amy Farah</Name>
+    <FullName>
+      <Text language="en">Weiss, Amy Farah</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_23">
     <BallotName>
@@ -4099,7 +4156,9 @@
       <Email></Email>
       <Phone></Phone>
     </ContactInformation>
-    <Name>Mirkarimi, Ross</Name>
+    <FullName>
+      <Text language="en">Mirkarimi, Ross</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_24">
     <BallotName>
@@ -4118,7 +4177,9 @@
       <Email></Email>
       <Phone></Phone>
     </ContactInformation>
-    <Name>Hennessy, Vicki</Name>
+    <FullName>
+      <Text language="en">Hennessy, Vicki</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_25">
     <BallotName>
@@ -4137,13 +4198,14 @@
       <Email></Email>
       <Phone>415-553-1741</Phone>
     </ContactInformation>
-    <Name>Gascon, George</Name>
+    <FullName>
+      <Text language="en">Gascon, George</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_26">
     <BallotName>
       <Text language="en">Gascon, George</Text>
     </BallotName>
-    <FileDate></FileDate>
     <PersonId>person_26</PersonId>
     <PreElectionStatus>filed</PreElectionStatus>
   </Candidate>
@@ -4156,7 +4218,9 @@
       <Email></Email>
       <Phone></Phone>
     </ContactInformation>
-    <Name>Carroll, Thurman Ogden, III</Name>
+    <FullName>
+      <Text language="en">Carroll, Thurman Ogden, III</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_27">
     <BallotName>
@@ -4175,7 +4239,9 @@
       <Email></Email>
       <Phone>415-995-5801</Phone>
     </ContactInformation>
-    <Name>Christensen, Julie</Name>
+    <FullName>
+      <Text language="en">Christensen, Julie</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_28">
     <BallotName>
@@ -4194,7 +4260,9 @@
       <Email></Email>
       <Phone></Phone>
     </ContactInformation>
-    <Name>Peskin, Aaron</Name>
+    <FullName>
+      <Text language="en">Peskin, Aaron</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_29">
     <BallotName>
@@ -4213,7 +4281,9 @@
       <Email></Email>
       <Phone></Phone>
     </ContactInformation>
-    <Name>Herrera, Dennis</Name>
+    <FullName>
+      <Text language="en">Herrera, Dennis</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_30">
     <BallotName>
@@ -4232,7 +4302,9 @@
       <Email>wendolyn.aragon@gmail.com</Email>
       <Phone>415-350-4765</Phone>
     </ContactInformation>
-    <Name>Aragon, Wendy</Name>
+    <FullName>
+      <Text language="en">Aragon, Wendy</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_31">
     <BallotName>
@@ -4251,7 +4323,9 @@
       <Email>ttemprano@gmail.com</Email>
       <Phone>415-622-5301</Phone>
     </ContactInformation>
-    <Name>Temprano, Tom</Name>
+    <FullName>
+      <Text language="en">Temprano, Tom</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_32">
     <BallotName>
@@ -4270,7 +4344,9 @@
       <Email></Email>
       <Phone>415-240-3036</Phone>
     </ContactInformation>
-    <Name>Tham, Joseph</Name>
+    <FullName>
+      <Text language="en">Tham, Joseph</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_33">
     <BallotName>
@@ -4289,7 +4365,9 @@
       <Email>Jsnzeng@gmail.com</Email>
       <Phone>415-645-3548</Phone>
     </ContactInformation>
-    <Name>Zeng, Jason</Name>
+    <FullName>
+      <Text language="en">Zeng, Jason</Text>
+    </FullName>
   </Person>
   <Candidate id="candidate_34">
     <BallotName>
@@ -4402,15 +4480,4 @@
     <OfficeId>office_20</OfficeId>
     <VotesAllowed>1</VotesAllowed>
   </CandidateContest>
-  <Locality id="locality_1">
-    <ExternalIdentifiers>
-      <ExternalIdentifier>
-        <Type>ocd-id</Type>
-        <Value>ocd-division/country:us/state:va/county:san francisco/city:san francisco</Value>
-      </ExternalIdentifier>
-    </ExternalIdentifiers>
-    <Name>San Francisco</Name>
-    <StateId>state_ca</StateId>
-    <Type>county</Type>
-  </Locality>
 </VipObject>
