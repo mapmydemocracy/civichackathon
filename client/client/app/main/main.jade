@@ -2,4 +2,7 @@ div(ng-include='"components/navbar/navbar.html"')
 
 div.container-fluid
   div(ch-form, items="jurisdictions", title="Jurisdictions", type="jurisdiction", add="add")
-  div(ch-form, items="jurisdiction", title="Offices", type="office", add="add")
+  
+  div(ch-form, items="jurisdiction.offices", title="Offices", type="office", add="add")
+
+  div(ch-form, items="office.districts", title="Districts", type="district", add="add")

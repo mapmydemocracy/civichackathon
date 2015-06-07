@@ -46,17 +46,17 @@ angular.module('clientApp')
       console.log('Adding office ', office)
     }
 
-    // o.addDistrict = function(jurisdiction, office, district){
-    //   // o.jurisdictions[jurisdiction][office]['districts'].push({name: district, contests:[]})
+    o.addDistrict = function(jurisdiction, office, district){
+      // o.jurisdictions[jurisdiction][office]['districts'].push({name: district, contests:[]})
       
-    //   var jurisdiction_offices = parseObjArray(o.jurisdictions, office);
+      // var jurisdiction_offices = o.parseObjArray(o.jurisdictions, office);
 
-    //   var office_districts = parseObjArray(jurisdiction_offices, district);
+      // var office_districts = parseObjArray(jurisdiction_offices, district);
 
-    //   office_districts.push(district)
+      // office_districts.push(district)
 
-    //   contests.log('Adding district ', district)
-    // }
+      console.log('Adding district ', district)
+    }
 
     // o.addContest = function(jurisdiction, office, district, contest){
     //   // o.jurisdictions[jurisdiction][office][district]['contests'].push({date: contest, candidates:[]})

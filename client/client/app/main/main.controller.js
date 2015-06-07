@@ -2,11 +2,20 @@
 
 angular.module('clientApp')
   .controller('MainCtrl', function ($scope, $http, jurisdictions) {
-    $scope.awesomeThings = [];
+
     $scope.jurisdictions = jurisdictions.jurisdictions;
 
 
+
+
+
     $scope.jurisdiction_name = "jurisdiction_one"
+    $scope.office_name = "Supervisor"
+
+
+
+
+
 
 
     $scope.addJurisdiction = function() {
@@ -14,8 +23,21 @@ angular.module('clientApp')
       jurisdictions.addJurisdiction($scope.newJurisdiction)
     }
 
+    
+
+
+
+
     $scope.jurisdiction = jurisdictions.parseObjArray($scope.jurisdictions, $scope.jurisdiction_name) 
     
+    $scope.office = jurisdictions.parseObjArray($scope.jurisdiction.offices, $scope.office_name)
+
+    console.log($scope.office)
+
+
+
+
+
 
 
     $scope.add = {
@@ -31,7 +53,8 @@ angular.module('clientApp')
       },
 
       district: function(district){
-        jurisdictions.addDistrict($scope.newDistrict)
+        console.log($scope.jurisdiction_name , $scope.office_name, $scope.newDistrict)
+        jurisdictions.addDistrict($scope.jurisdiction_name , $scope.office_name, $scope.newDistrict)
       },
 
       contest: function(contest){
