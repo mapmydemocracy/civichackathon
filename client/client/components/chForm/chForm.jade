@@ -1,0 +1,16 @@
+div
+  h4 {{title}}
+
+  div(ng-repeat="item in items")
+
+    div.row
+      div.col-md-8
+        h3 {{item.name}}
+
+    //- div.row
+    //-   form.col-md-8
+    //-     div.form-group
+    //-       input#inputjurisdictionname.form-control(ng-model="newJurisdiction",type="text",placeholder="Jurisdiction name")
+    //-     div.form-group
+    //-       button(type="button",ng-click="addJurisdiction()").btn.btn-primary
+    //-         text Add
