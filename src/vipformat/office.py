@@ -41,8 +41,28 @@ def emitOffice(line, office_id):
     return common.pairlistToXml('Office', d, object_id=office_id)
 
 def emitContest(line, candidateIds, office_id):
+    """
+    <xs:complexType name="ContestBase" abstract="true">
+      <xs:sequence>
+        <xs:element name="Abbreviation" type="xs:string" minOccurs="0" />
+        <xs:element name="BallotSelectionId" type="xs:IDREF" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="BallotSubTitle" type="InternationalizedText" minOccurs="0" />
+        <xs:element name="BallotTitle" type="InternationalizedText" minOccurs="0" />
+        <xs:element name="ElectoralDistrictId" type="xs:IDREF" />
+        <xs:element name="ElectorateSpecification" type="InternationalizedText" minOccurs="0" />
+        <xs:element name="ExternalIdentifiers" type="ExternalIdentifiers" minOccurs="0" />
+        <xs:element name="HasRotation" type="xs:boolean" minOccurs="0" />
+        <xs:element name="Name" type="xs:string" />
+        <xs:element name="SequenceOrder" type="xs:integer" minOccurs="0" />
+        <xs:element name="VoteVariation" type="VoteVariation" minOccurs="0" />
+        <xs:element name="OtherVoteVariation" type="xs:string" minOccurs="0" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID" use="required" />
+    </xs:complexType>
+    """
     object_id = 'contest_{0}'.format(line[0])
     contest_name = line[1]
+    vote_variation = line[7]
     d = []
     for candidate_id in candidateIds:
         selection_id = candidate.make_selection_id(candidate_id)
@@ -50,6 +70,7 @@ def emitContest(line, candidateIds, office_id):
     d.extend([
         ('ElectoralDistrictId', line[5]),
         ('Name', contest_name),
+        ('VoteVariation', vote_variation),
         ('NumberElected', '1'),
         ('OfficeId', office_id),
         ('VotesAllowed', '1'),

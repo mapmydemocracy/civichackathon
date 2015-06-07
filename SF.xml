@@ -4397,6 +4397,7 @@
     <BallotSelectionId>selection_23</BallotSelectionId>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>Mayor</Name>
+    <VoteVariation>rcv</VoteVariation>
     <NumberElected>1</NumberElected>
     <OfficeId>office_1</OfficeId>
     <VotesAllowed>1</VotesAllowed>
@@ -4409,6 +4410,7 @@
     <BallotSelectionId>selection_30</BallotSelectionId>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>City Attorney</Name>
+    <VoteVariation>rcv</VoteVariation>
     <NumberElected>1</NumberElected>
     <OfficeId>office_3</OfficeId>
     <VotesAllowed>1</VotesAllowed>
@@ -4421,6 +4423,7 @@
     <BallotSelectionId>selection_26</BallotSelectionId>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>District Attorney</Name>
+    <VoteVariation>rcv</VoteVariation>
     <NumberElected>1</NumberElected>
     <OfficeId>office_4</OfficeId>
     <VotesAllowed>1</VotesAllowed>
@@ -4434,6 +4437,7 @@
     <BallotSelectionId>selection_25</BallotSelectionId>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>Sheriff</Name>
+    <VoteVariation>rcv</VoteVariation>
     <NumberElected>1</NumberElected>
     <OfficeId>office_6</OfficeId>
     <VotesAllowed>1</VotesAllowed>
@@ -4449,6 +4453,7 @@
     <BallotSelectionId>selection_29</BallotSelectionId>
     <ElectoralDistrictId>BOS</ElectoralDistrictId>
     <Name>Board of Supervisors</Name>
+    <VoteVariation>rcv</VoteVariation>
     <NumberElected>1</NumberElected>
     <OfficeId>office_10</OfficeId>
     <VotesAllowed>1</VotesAllowed>
@@ -4464,6 +4469,7 @@
     <BallotSelectionId>selection_34</BallotSelectionId>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>Community College Board</Name>
+    <VoteVariation>n-of-m</VoteVariation>
     <NumberElected>1</NumberElected>
     <OfficeId>office_20</OfficeId>
     <VotesAllowed>1</VotesAllowed>
