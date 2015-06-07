@@ -3653,7 +3653,7 @@
   <number>11</number>
   <type>city-supervisor</type>
 </ElectoralDistrict>
-<Person id="1">
+<Person id="person_1">
   <ContactInformation identifier="person_1">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3661,7 +3661,13 @@
   </ContactInformation>
   <Name>Graham, Kent</Name>
 </Person>
-<Person id="2">
+<Candidate id="person_1">
+  <BallotName>Graham, Kent</BallotName>
+  <FileDate>6/2/2015</FileDate>
+  <PersonId>Graham, Kent</PersonId>
+  <PreElectionStatus>qualified</PreElectionStatus>
+</Candidate>
+<Person id="person_2">
   <ContactInformation identifier="person_2">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3669,7 +3675,13 @@
   </ContactInformation>
   <Name>Lee, Ed</Name>
 </Person>
-<Person id="3">
+<Candidate id="person_2">
+  <BallotName>Lee, Ed</BallotName>
+  <FileDate>6/1/2015</FileDate>
+  <PersonId>Lee, Ed</PersonId>
+  <PreElectionStatus>qualified</PreElectionStatus>
+</Candidate>
+<Person id="person_3">
   <ContactInformation identifier="person_3">
     <AddressLine>958 Jackson St, 94133</AddressLine>
     <Email>PanasianSF@yahoo.com</Email>
@@ -3677,7 +3689,13 @@
   </ContactInformation>
   <Name>Pang, Wilma</Name>
 </Person>
-<Person id="4">
+<Candidate id="person_3">
+  <BallotName>Pang, Wilma</BallotName>
+  <FileDate>6/3/2015</FileDate>
+  <PersonId>Pang, Wilma</PersonId>
+  <PreElectionStatus>qualified</PreElectionStatus>
+</Candidate>
+<Person id="person_4">
   <ContactInformation identifier="person_4">
     <AddressLine>141 Stoneridge Ln 94134</AddressLine>
     <Email>news4960@hotmail.com</Email>
@@ -3685,7 +3703,13 @@
   </ContactInformation>
   <Name>Aviles, Jose R. Milla</Name>
 </Person>
-<Person id="5">
+<Candidate id="person_4">
+  <BallotName>Aviles, Jose R. Milla</BallotName>
+  <FileDate>2/26/2013</FileDate>
+  <PersonId>Aviles, Jose R. Milla</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_5">
   <ContactInformation identifier="person_5">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3693,7 +3717,13 @@
   </ContactInformation>
   <Name>Digman, Joshua</Name>
 </Person>
-<Person id="6">
+<Candidate id="person_5">
+  <BallotName>Digman, Joshua</BallotName>
+  <FileDate>1/13/2015</FileDate>
+  <PersonId>Digman, Joshua</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_6">
   <ContactInformation identifier="person_6">
     <AddressLine>290 Turk Street, 94102</AddressLine>
     <Email>dupreeconsults@usa.com</Email>
@@ -3701,7 +3731,13 @@
   </ContactInformation>
   <Name>DuPree, Eric</Name>
 </Person>
-<Person id="7">
+<Candidate id="person_6">
+  <BallotName>DuPree, Eric</BallotName>
+  <FileDate>3/17/2015</FileDate>
+  <PersonId>DuPree, Eric</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_7">
   <ContactInformation identifier="person_7">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3709,7 +3745,13 @@
   </ContactInformation>
   <Name>Fitch, John</Name>
 </Person>
-<Person id="8">
+<Candidate id="person_7">
+  <BallotName>Fitch, John</BallotName>
+  <FileDate>1/20/2015</FileDate>
+  <PersonId>Fitch, John</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_8">
   <ContactInformation identifier="person_8">
     <AddressLine>520 Frederick St Apt 13, 94117</AddressLine>
     <Email>occupySF@unseen.is</Email>
@@ -3717,7 +3759,13 @@
   </ContactInformation>
   <Name>Gottschalk, Karla</Name>
 </Person>
-<Person id="9">
+<Candidate id="person_8">
+  <BallotName>Gottschalk, Karla</BallotName>
+  <FileDate>5/11/2015</FileDate>
+  <PersonId>Gottschalk, Karla</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_9">
   <ContactInformation identifier="person_9">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3725,7 +3773,13 @@
   </ContactInformation>
   <Name>Herrera, Francisco</Name>
 </Person>
-<Person id="10">
+<Candidate id="person_9">
+  <BallotName>Herrera, Francisco</BallotName>
+  <FileDate>3/23/2015</FileDate>
+  <PersonId>Herrera, Francisco</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_10">
   <ContactInformation identifier="person_10">
     <AddressLine>P.O. Box 425314, 94142</AddressLine>
     <Email>bahomran@gmail.com</Email>
@@ -3733,7 +3787,13 @@
   </ContactInformation>
   <Name>Homran, Bilal</Name>
 </Person>
-<Person id="11">
+<Candidate id="person_10">
+  <BallotName>Homran, Bilal</BallotName>
+  <FileDate>1/30/2015</FileDate>
+  <PersonId>Homran, Bilal</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_11">
   <ContactInformation identifier="person_11">
     <AddressLine>684 Ellis St Apt 203</AddressLine>
     <Email>ibnAbdullah2016@gmail.com</Email>
@@ -3741,7 +3801,13 @@
   </ContactInformation>
   <Name>Ibn Abdullah, Muhammad-Khalil</Name>
 </Person>
-<Person id="12">
+<Candidate id="person_11">
+  <BallotName>Ibn Abdullah, Muhammad-Khalil</BallotName>
+  <FileDate>7/18/2014</FileDate>
+  <PersonId>Ibn Abdullah, Muhammad-Khalil</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_12">
   <ContactInformation identifier="person_12">
     <AddressLine>692 Valencia St., 94110</AddressLine>
     <Email>nissimlanyadoo@gmail.com</Email>
@@ -3749,7 +3815,13 @@
   </ContactInformation>
   <Name>Lanyadoo, Nissim</Name>
 </Person>
-<Person id="13">
+<Candidate id="person_12">
+  <BallotName>Lanyadoo, Nissim</BallotName>
+  <FileDate>3/6/2015</FileDate>
+  <PersonId>Lanyadoo, Nissim</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_13">
   <ContactInformation identifier="person_13">
     <AddressLine>129 Golden Gate Ave, Apt 504, 94102</AddressLine>
     <Email>robertjordan2011@yahoo.com</Email>
@@ -3757,7 +3829,13 @@
   </ContactInformation>
   <Name>Jordan, Robert Jr.</Name>
 </Person>
-<Person id="14">
+<Candidate id="person_13">
+  <BallotName>Jordan, Robert Jr.</BallotName>
+  <FileDate>9/11/2014</FileDate>
+  <PersonId>Jordan, Robert Jr.</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_14">
   <ContactInformation identifier="person_14">
     <AddressLine></AddressLine>
     <Email>jlefave@gmail.com</Email>
@@ -3765,7 +3843,13 @@
   </ContactInformation>
   <Name>Lefebvre, Jim</Name>
 </Person>
-<Person id="15">
+<Candidate id="person_14">
+  <BallotName>Lefebvre, Jim</BallotName>
+  <FileDate>5/20/2014</FileDate>
+  <PersonId>Lefebvre, Jim</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_15">
   <ContactInformation identifier="person_15">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3773,7 +3857,13 @@
   </ContactInformation>
   <Name>McGovern-Calder, Seamus</Name>
 </Person>
-<Person id="16">
+<Candidate id="person_15">
+  <BallotName>McGovern-Calder, Seamus</BallotName>
+  <FileDate>12/5/2014</FileDate>
+  <PersonId>McGovern-Calder, Seamus</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_16">
   <ContactInformation identifier="person_16">
     <AddressLine>107 Biythdale Ave</AddressLine>
     <Email>harold.miller.for.s.f.mayor@gmail.com</Email>
@@ -3781,7 +3871,13 @@
   </ContactInformation>
   <Name>Miller, Harold</Name>
 </Person>
-<Person id="17">
+<Candidate id="person_16">
+  <BallotName>Miller, Harold</BallotName>
+  <FileDate>11/18/2011</FileDate>
+  <PersonId>Miller, Harold</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_17">
   <ContactInformation identifier="person_17">
     <AddressLine>7 Maddux Ave</AddressLine>
     <Email>blacklifethethirdtestament@gmail.com</Email>
@@ -3789,7 +3885,13 @@
   </ContactInformation>
   <Name>Mims, Antonio Elmo</Name>
 </Person>
-<Person id="18">
+<Candidate id="person_17">
+  <BallotName>Mims, Antonio Elmo</BallotName>
+  <FileDate>11/28/2011</FileDate>
+  <PersonId>Mims, Antonio Elmo</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_18">
   <ContactInformation identifier="person_18">
     <AddressLine>P.O. Box 12521, 94112</AddressLine>
     <Email></Email>
@@ -3797,7 +3899,13 @@
   </ContactInformation>
   <Name>Mondares, Alexander</Name>
 </Person>
-<Person id="19">
+<Candidate id="person_18">
+  <BallotName>Mondares, Alexander</BallotName>
+  <FileDate>3/19/2013</FileDate>
+  <PersonId>Mondares, Alexander</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_19">
   <ContactInformation identifier="person_19">
     <AddressLine>731 Cortland Ave</AddressLine>
     <Email>ignacio930@hotmail.com</Email>
@@ -3805,7 +3913,13 @@
   </ContactInformation>
   <Name>Nunez, Ignacio L.</Name>
 </Person>
-<Person id="20">
+<Candidate id="person_19">
+  <BallotName>Nunez, Ignacio L.</BallotName>
+  <FileDate>11/30/2012</FileDate>
+  <PersonId>Nunez, Ignacio L.</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_20">
   <ContactInformation identifier="person_20">
     <AddressLine>132 Clinton Park Apt 1, 94103</AddressLine>
     <Email></Email>
@@ -3813,7 +3927,13 @@
   </ContactInformation>
   <Name>Petrelis, Michael</Name>
 </Person>
-<Person id="21">
+<Candidate id="person_20">
+  <BallotName>Petrelis, Michael</BallotName>
+  <FileDate>11/6/2014</FileDate>
+  <PersonId>Petrelis, Michael</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_21">
   <ContactInformation identifier="person_21">
     <AddressLine>940 San Jose Ave, 94110</AddressLine>
     <Email>knnth_richard@yahoo.com</Email>
@@ -3821,7 +3941,13 @@
   </ContactInformation>
   <Name>Richard, Kenneth</Name>
 </Person>
-<Person id="22">
+<Candidate id="person_21">
+  <BallotName>Richard, Kenneth</BallotName>
+  <FileDate>12/11/2014</FileDate>
+  <PersonId>Richard, Kenneth</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_22">
   <ContactInformation identifier="person_22">
     <AddressLine>3128 Cesar Chavez St, 94110</AddressLine>
     <Email>gaynorsiataga@hotmail.com</Email>
@@ -3829,7 +3955,13 @@
   </ContactInformation>
   <Name>Siataga, Gaynorann</Name>
 </Person>
-<Person id="23">
+<Candidate id="person_22">
+  <BallotName>Siataga, Gaynorann</BallotName>
+  <FileDate>5/12/2015</FileDate>
+  <PersonId>Siataga, Gaynorann</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_23">
   <ContactInformation identifier="person_23">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3837,7 +3969,13 @@
   </ContactInformation>
   <Name>Weiss, Amy Farah</Name>
 </Person>
-<Person id="24">
+<Candidate id="person_23">
+  <BallotName>Weiss, Amy Farah</BallotName>
+  <FileDate>12/8/2014</FileDate>
+  <PersonId>Weiss, Amy Farah</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_24">
   <ContactInformation identifier="person_24">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3845,7 +3983,13 @@
   </ContactInformation>
   <Name>Mirkarimi, Ross</Name>
 </Person>
-<Person id="25">
+<Candidate id="person_24">
+  <BallotName>Mirkarimi, Ross</BallotName>
+  <FileDate>1/3/2014</FileDate>
+  <PersonId>Mirkarimi, Ross</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_25">
   <ContactInformation identifier="person_25">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3853,7 +3997,13 @@
   </ContactInformation>
   <Name>Hennessy, Vicki</Name>
 </Person>
-<Person id="26">
+<Candidate id="person_25">
+  <BallotName>Hennessy, Vicki</BallotName>
+  <FileDate>1/12/2015</FileDate>
+  <PersonId>Hennessy, Vicki</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_26">
   <ContactInformation identifier="person_26">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3861,7 +4011,13 @@
   </ContactInformation>
   <Name>Gascon, George</Name>
 </Person>
-<Person id="27">
+<Candidate id="person_26">
+  <BallotName>Gascon, George</BallotName>
+  <FileDate></FileDate>
+  <PersonId>Gascon, George</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_27">
   <ContactInformation identifier="person_27">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3869,7 +4025,13 @@
   </ContactInformation>
   <Name>Carroll, Thurman Ogden, III</Name>
 </Person>
-<Person id="28">
+<Candidate id="person_27">
+  <BallotName>Carroll, Thurman Ogden, III</BallotName>
+  <FileDate>5/14/2015</FileDate>
+  <PersonId>Carroll, Thurman Ogden, III</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_28">
   <ContactInformation identifier="person_28">
     <AddressLine>425 Market St., 26th Floor, 94105</AddressLine>
     <Email></Email>
@@ -3877,7 +4039,13 @@
   </ContactInformation>
   <Name>Christensen, Julie</Name>
 </Person>
-<Person id="29">
+<Candidate id="person_28">
+  <BallotName>Christensen, Julie</BallotName>
+  <FileDate>1/16/2015</FileDate>
+  <PersonId>Christensen, Julie</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_29">
   <ContactInformation identifier="person_29">
     <AddressLine>470 Columbus #211, 94133</AddressLine>
     <Email></Email>
@@ -3885,7 +4053,13 @@
   </ContactInformation>
   <Name>Peskin, Aaron</Name>
 </Person>
-<Person id="30">
+<Candidate id="person_29">
+  <BallotName>Peskin, Aaron</BallotName>
+  <FileDate>3/30/2015</FileDate>
+  <PersonId>Peskin, Aaron</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_30">
   <ContactInformation identifier="person_30">
     <AddressLine></AddressLine>
     <Email></Email>
@@ -3893,7 +4067,13 @@
   </ContactInformation>
   <Name>Herrera, Dennis</Name>
 </Person>
-<Person id="31">
+<Candidate id="person_30">
+  <BallotName>Herrera, Dennis</BallotName>
+  <FileDate>12/12/2014</FileDate>
+  <PersonId>Herrera, Dennis</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_31">
   <ContactInformation identifier="person_31">
     <AddressLine>534 2nd Ave #5, 94121</AddressLine>
     <Email>wendolyn.aragon@gmail.com</Email>
@@ -3901,7 +4081,13 @@
   </ContactInformation>
   <Name>Aragon, Wendy</Name>
 </Person>
-<Person id="32">
+<Candidate id="person_31">
+  <BallotName>Aragon, Wendy</BallotName>
+  <FileDate>4/20/2015</FileDate>
+  <PersonId>Aragon, Wendy</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_32">
   <ContactInformation identifier="person_32">
     <AddressLine>1465 S. Van Ness Ave, 94110</AddressLine>
     <Email>ttemprano@gmail.com</Email>
@@ -3909,7 +4095,13 @@
   </ContactInformation>
   <Name>Temprano, Tom</Name>
 </Person>
-<Person id="33">
+<Candidate id="person_32">
+  <BallotName>Temprano, Tom</BallotName>
+  <FileDate>4/27/2015</FileDate>
+  <PersonId>Temprano, Tom</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_33">
   <ContactInformation identifier="person_33">
     <AddressLine>2910 Anza St, 94121</AddressLine>
     <Email></Email>
@@ -3917,7 +4109,13 @@
   </ContactInformation>
   <Name>Tham, Joseph</Name>
 </Person>
-<Person id="34">
+<Candidate id="person_33">
+  <BallotName>Tham, Joseph</BallotName>
+  <FileDate>5/11/2015</FileDate>
+  <PersonId>Tham, Joseph</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+<Person id="person_34">
   <ContactInformation identifier="person_34">
     <AddressLine>258 6th Ave, 94118</AddressLine>
     <Email>Jsnzeng@gmail.com</Email>
@@ -3925,6 +4123,7 @@
   </ContactInformation>
   <Name>Zeng, Jason</Name>
 </Person>
+<<<<<<< HEAD
 <OfficeID id="1">
     <Office>Mayor</Office>
     <Max_Terms>2</Max_Terms>
@@ -4069,4 +4268,12 @@
     <Term_Length(Years)>6</Term_Length(Years)>
     <ElectoralDistrict>County</ElectoralDistrict>
 </OfficeID>
+=======
+<Candidate id="person_34">
+  <BallotName>Zeng, Jason</BallotName>
+  <FileDate>5/1/2015</FileDate>
+  <PersonId>Zeng, Jason</PersonId>
+  <PreElectionStatus>filed</PreElectionStatus>
+</Candidate>
+>>>>>>> Add Candidate objects.
 </VipObject>
