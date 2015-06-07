@@ -34,8 +34,18 @@ def csv_lines(base_name):
         for line in csvreader:
             yield line
 
+
+def make_xml_datetime(dt):
+    """Return a datetime string in xs:dateTime format.
+
+    For example: "2002-05-30T09:00:00".
+    """
+    return dt.isoformat()
+
+
 def make_attr(key, value):
     return '{0}="{1}"'.format(key, value)
+
 
 def pairlistToXml(elemName, contents, object_id=None, identifier=None):
     attrs = ''

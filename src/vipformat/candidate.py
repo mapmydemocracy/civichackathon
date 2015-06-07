@@ -39,6 +39,7 @@
 
 """
 import csv
+from datetime import datetime
 
 from vipformat import common
 from vipformat.common import pairlistToXml
@@ -89,7 +90,14 @@ def line_to_xml(line):
     person_number = line[0]
     person_id = "person_{0}".format(person_number)
 
-    file_date = line[8]
+    file_dt = line[8]
+    if file_dt:
+        dt_parts = [int(n) for n in line[8].split("-")]  # year, month, day
+        file_date_time = datetime(*dt_parts)
+        file_date = common.make_xml_datetime(file_date_time)
+    else:
+        file_date = ''
+
     name = line[4]
     pre_election_status = line[3]
 
@@ -105,7 +113,7 @@ def line_to_xml(line):
     candidate_id = "candidate_{0}".format(person_number)
     d = [
         ('BallotName', name),
-        ('FileDate', file_date),
+        ('FileDate', file_date),  # This is actually xs:dateTime.
         ('PersonId', person_id),
         ('PreElectionStatus', pre_election_status),
     ]
