@@ -10,4 +10,23 @@ angular.module('clientApp')
       jurisdictions.addJurisdiction($scope.newJurisdiction)
     }
     
+    $scope.add = {
+
+      jurisdiction: function(jurisdiction){
+        jurisdictions.addJurisdiction($scope.newJurisdiction)
+      },
+
+      district: function(district){
+        jurisdictions.addDistrict($scope.newDistrict)
+      },
+
+      contest: function(contest){
+        jurisdictions.addContest($scope.newContest)
+      },
+
+      candidate:function(candidate){
+        jurisdictions.addCandidate($scope.newCandidate)
+      }
+    }
+
   });
