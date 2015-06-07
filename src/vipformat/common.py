@@ -6,6 +6,8 @@ import textwrap
 
 # VIP recommends 2-space indents.
 INDENT = 2 * ' '
+SF_LOCALITY_ID = "locality_1"
+
 
 def indent(text):
     lines = text.splitlines(True)

@@ -2,9 +2,9 @@
 import common
 
 
+districtName_city = 'SF'
 electoralDistricts = {}
 
-districtName_city = 'SF_city'
 def districtName_supervisor(num):
     num = int(num)
     return 'SF_' + "{0:02d}".format(num)

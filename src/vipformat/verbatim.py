@@ -1,6 +1,8 @@
 
+from vipformat import common
+
 def emitVerbatim():
-    return """<Locality id="0">
+    return """<Locality id="{locality_id}">
   <ElectionAdministrationId>0</ElectionAdministrationId>
   <ExternalIdentifiers>
     <ExternalIdentifier>
@@ -9,6 +11,6 @@ def emitVerbatim():
     </ExternalIdentifier>
   </ExternalIdentifiers>
   <Name>San Francisco</Name>
-  <Type>city</Type>
+  <Type>county</Type>
 </Locality>
-"""
+""".format(locality_id=common.SF_LOCALITY_ID)
