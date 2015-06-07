@@ -2,28 +2,29 @@
 import common
 
 
-districtName_city = 'SF'
+SF_DISTRICT_ID = 'district_sf'
 electoralDistricts = {}
 
-def districtName_supervisor(num):
+def make_district_id_supervisor(num):
     num = int(num)
-    return 'SF_' + "{0:02d}".format(num)
+    return 'district_bos_' + "{0:02d}".format(num)
 
 def emitCitywideDistrict():
     d = [
         ('Name', 'City and County of San Francisco'),
         ('Type', 'city')
     ]
-    return common.pairlistToXml('ElectoralDistrict', d, object_id=districtName_city)
+    return common.pairlistToXml('ElectoralDistrict', d, object_id=SF_DISTRICT_ID)
 
-def emitSupervisorDistrict(name):
+def emitSupervisorDistrict(number):
+    name = 'San Francisco Supervisorial District {0}'.format(number)
     d = [
-        ('Name', 'San Francisco Supervisorial District ' + name),
-        ('Number', name),
+        ('Name', name),
+        ('Number', number),
         ('Type', 'city-council'),
     ]
-    object_id = districtName_supervisor(name)
-    return common.pairlistToXml('ElectoralDistrict', d, object_id=object_id)
+    district_id = make_district_id_supervisor(number)
+    return common.pairlistToXml('ElectoralDistrict', d, object_id=district_id)
 
     
 def emitAllElectoralDistricts():

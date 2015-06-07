@@ -8,9 +8,10 @@ from vipformat import common, electoralDistrict
 
 def emitPrecinct(line):
     precinct_id = "precinct_{0}".format(line[0])
+    bos_district = line[9]
     d = [
-        ('ElectoralDistrictId', electoralDistrict.districtName_city),
-        ('ElectoralDistrictId', electoralDistrict.districtName_supervisor(line[9])),
+        ('ElectoralDistrictId', electoralDistrict.SF_DISTRICT_ID),
+        ('ElectoralDistrictId', electoralDistrict.make_district_id_supervisor(bos_district)),
         ('LocalityId', common.SF_LOCALITY_ID),
         ('Name', line[1]),
     ]
