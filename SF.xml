@@ -4234,105 +4234,105 @@
   <CandidateSelection id="selection_34">
     <CandidateId>candidate_34</CandidateId>
   </CandidateSelection>
-  <Office id="1">
+  <Office id="office_1">
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name><Text language="en">Mayor</Text></Name>
   </Office>
-  <CandidateContest id="1">
+  <CandidateContest id="contest_1">
+    <BallotSelectionId>selection_1</BallotSelectionId>
+    <BallotSelectionId>selection_2</BallotSelectionId>
+    <BallotSelectionId>selection_4</BallotSelectionId>
+    <BallotSelectionId>selection_5</BallotSelectionId>
+    <BallotSelectionId>selection_6</BallotSelectionId>
+    <BallotSelectionId>selection_7</BallotSelectionId>
+    <BallotSelectionId>selection_8</BallotSelectionId>
+    <BallotSelectionId>selection_9</BallotSelectionId>
+    <BallotSelectionId>selection_10</BallotSelectionId>
+    <BallotSelectionId>selection_11</BallotSelectionId>
+    <BallotSelectionId>selection_12</BallotSelectionId>
+    <BallotSelectionId>selection_13</BallotSelectionId>
+    <BallotSelectionId>selection_14</BallotSelectionId>
+    <BallotSelectionId>selection_15</BallotSelectionId>
+    <BallotSelectionId>selection_16</BallotSelectionId>
+    <BallotSelectionId>selection_17</BallotSelectionId>
+    <BallotSelectionId>selection_18</BallotSelectionId>
+    <BallotSelectionId>selection_19</BallotSelectionId>
+    <BallotSelectionId>selection_20</BallotSelectionId>
+    <BallotSelectionId>selection_21</BallotSelectionId>
+    <BallotSelectionId>selection_22</BallotSelectionId>
+    <BallotSelectionId>selection_23</BallotSelectionId>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>Mayor</Name>
     <NumberElected>1</NumberElected>
-    <OfficeId>1</OfficeId>
+    <OfficeId>office_1</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <BallotSelectionId>1</BallotSelectionId>
-    <BallotSelectionId>2</BallotSelectionId>
-    <BallotSelectionId>4</BallotSelectionId>
-    <BallotSelectionId>5</BallotSelectionId>
-    <BallotSelectionId>6</BallotSelectionId>
-    <BallotSelectionId>7</BallotSelectionId>
-    <BallotSelectionId>8</BallotSelectionId>
-    <BallotSelectionId>9</BallotSelectionId>
-    <BallotSelectionId>10</BallotSelectionId>
-    <BallotSelectionId>11</BallotSelectionId>
-    <BallotSelectionId>12</BallotSelectionId>
-    <BallotSelectionId>13</BallotSelectionId>
-    <BallotSelectionId>14</BallotSelectionId>
-    <BallotSelectionId>15</BallotSelectionId>
-    <BallotSelectionId>16</BallotSelectionId>
-    <BallotSelectionId>17</BallotSelectionId>
-    <BallotSelectionId>18</BallotSelectionId>
-    <BallotSelectionId>19</BallotSelectionId>
-    <BallotSelectionId>20</BallotSelectionId>
-    <BallotSelectionId>21</BallotSelectionId>
-    <BallotSelectionId>22</BallotSelectionId>
-    <BallotSelectionId>23</BallotSelectionId>
   </CandidateContest>
-  <Office id="3">
+  <Office id="office_3">
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name><Text language="en">City Attorney</Text></Name>
   </Office>
-  <CandidateContest id="3">
+  <CandidateContest id="contest_3">
+    <BallotSelectionId>selection_30</BallotSelectionId>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>City Attorney</Name>
     <NumberElected>1</NumberElected>
-    <OfficeId>3</OfficeId>
+    <OfficeId>office_3</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <BallotSelectionId>30</BallotSelectionId>
   </CandidateContest>
-  <Office id="4">
+  <Office id="office_4">
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name><Text language="en">District Attorney</Text></Name>
   </Office>
-  <CandidateContest id="4">
+  <CandidateContest id="contest_4">
+    <BallotSelectionId>selection_26</BallotSelectionId>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>District Attorney</Name>
     <NumberElected>1</NumberElected>
-    <OfficeId>4</OfficeId>
+    <OfficeId>office_4</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <BallotSelectionId>26</BallotSelectionId>
   </CandidateContest>
-  <Office id="6">
+  <Office id="office_6">
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name><Text language="en">Sheriff</Text></Name>
   </Office>
-  <CandidateContest id="6">
+  <CandidateContest id="contest_6">
+    <BallotSelectionId>selection_24</BallotSelectionId>
+    <BallotSelectionId>selection_25</BallotSelectionId>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>Sheriff</Name>
     <NumberElected>1</NumberElected>
-    <OfficeId>6</OfficeId>
+    <OfficeId>office_6</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <BallotSelectionId>24</BallotSelectionId>
-    <BallotSelectionId>25</BallotSelectionId>
   </CandidateContest>
-  <Office id="10">
+  <Office id="office_10">
     <ElectoralDistrictId>SF_03</ElectoralDistrictId>
     <Name><Text language="en">Board of Supervisors</Text></Name>
   </Office>
-  <CandidateContest id="10">
+  <CandidateContest id="contest_10">
+    <BallotSelectionId>selection_3</BallotSelectionId>
+    <BallotSelectionId>selection_27</BallotSelectionId>
+    <BallotSelectionId>selection_28</BallotSelectionId>
+    <BallotSelectionId>selection_29</BallotSelectionId>
     <ElectoralDistrictId>SF_03</ElectoralDistrictId>
     <Name>Board of Supervisors</Name>
     <NumberElected>1</NumberElected>
-    <OfficeId>10</OfficeId>
+    <OfficeId>office_10</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <BallotSelectionId>3</BallotSelectionId>
-    <BallotSelectionId>27</BallotSelectionId>
-    <BallotSelectionId>28</BallotSelectionId>
-    <BallotSelectionId>29</BallotSelectionId>
   </CandidateContest>
-  <Office id="20">
+  <Office id="office_20">
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name><Text language="en">Community College Board</Text></Name>
   </Office>
-  <CandidateContest id="20">
+  <CandidateContest id="contest_20">
+    <BallotSelectionId>selection_31</BallotSelectionId>
+    <BallotSelectionId>selection_32</BallotSelectionId>
+    <BallotSelectionId>selection_33</BallotSelectionId>
+    <BallotSelectionId>selection_34</BallotSelectionId>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>Community College Board</Name>
     <NumberElected>1</NumberElected>
-    <OfficeId>20</OfficeId>
+    <OfficeId>office_20</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <BallotSelectionId>31</BallotSelectionId>
-    <BallotSelectionId>32</BallotSelectionId>
-    <BallotSelectionId>33</BallotSelectionId>
-    <BallotSelectionId>34</BallotSelectionId>
   </CandidateContest>
   <Locality id="locality_1">
     <ExternalIdentifiers>
