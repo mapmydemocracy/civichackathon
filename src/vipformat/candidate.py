@@ -64,7 +64,6 @@ def make_contact_info(line, person_id):
       <xs:attribute name="identifier" type="xs:string" use="required" />
     </xs:complexType>
     """
-    identifier = "person_{0}".format(person_id)
     address = line[5]
     email = line[7]
     phone = line[6]
@@ -73,7 +72,7 @@ def make_contact_info(line, person_id):
         ('Email', email),
         ('Phone', phone),
     ]
-    xml = pairlistToXml('ContactInformation', d, identifier=identifier)
+    xml = pairlistToXml('ContactInformation', d, identifier=person_id)
     return xml
 
 
@@ -83,14 +82,29 @@ def line_to_xml(line):
       PersonId, Office, Office_ID, CandidatePreElectionStatus, Name,
       Address & Zip, Telephone, Email, FileDate
     """
-    person_id = line[0]
-    contact_info_xml = make_contact_info(line, person_id=person_id)
+    person_id = "person_{0}".format(line[0])
+
+    file_date = line[8]
     name = line[4]
+    pre_election_status = line[3]
+
+    # Person object
+    contact_info_xml = make_contact_info(line, person_id=person_id)
     d = [
         contact_info_xml,
         ('Name', name),
     ]
     xml = pairlistToXml('Person', d, object_id=person_id)
+
+    # Candidate object
+    d = [
+        ('BallotName', name),
+        ('FileDate', file_date),
+        ('PersonId', name),
+        ('PreElectionStatus', pre_election_status),
+    ]
+    xml += pairlistToXml('Candidate', d, object_id=person_id)
+
     return xml
 
 
