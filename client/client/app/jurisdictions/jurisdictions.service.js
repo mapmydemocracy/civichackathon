@@ -18,14 +18,14 @@ angular.module('clientApp')
                 { name: "District 3",
                   contests: [
                     {
-                      name: new Date('2015', '11', '05').toString(),
+                      name: new Date('2015', '10', '05').toString().substring(0, 15),
                       candidates: [
                         {name: "Julie Christensen"},
                         {name: "Aaron Peskin"}
                       ]
                     },
                     {
-                     name: new Date('2016', '11', '05').toString(),
+                     name: new Date('2016', '10', '08').toString().substring(0, 15),
                       candidates: []
                     }
                   ]
