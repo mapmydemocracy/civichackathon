@@ -1,6 +1,18 @@
 
 import csv
 import os
+import textwrap
+
+
+# VIP recommends 2-space indents.
+INDENT = 2 * ' '
+
+def indent(text):
+    lines = text.splitlines(True)
+    glue = INDENT
+    text = INDENT + INDENT.join(lines)
+
+    return text
 
 
 def csv_lines(base_name):
@@ -31,7 +43,13 @@ def pairlistToXml(elemName, contents, object_id=None, identifier=None):
         attrs += ' {0}'.format(make_attr('identifier', identifier))
 
     ret = "<{0}{1}>\n".format(elemName, attrs)
-    for (k,v) in contents:
-        ret = ret + '    <' + k + '>' + v + '</' + k + '>\n'
-    ret = ret + '</' + elemName + '>\n'
+    for item in contents:
+        if isinstance(item, basestring):
+            inner = item
+        else:
+            tag, value = item
+            inner = '<{tag}>{value}</{tag}>\n'.format(tag=tag, value=value)
+        ret += indent(inner)
+    ret += '</{0}>\n'.format(elemName)
+
     return ret
