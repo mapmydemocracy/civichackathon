@@ -44,7 +44,7 @@ from vipformat import common
 from vipformat.common import pairlistToXml
 
 
-def make_contact_info(line):
+def make_contact_info(line, person_id):
     """
     <xs:complexType name="ContactInformation">
       <xs:sequence>
@@ -64,15 +64,16 @@ def make_contact_info(line):
       <xs:attribute name="identifier" type="xs:string" use="required" />
     </xs:complexType>
     """
+    identifier = "person_{0}".format(person_id)
     address = line[5]
     email = line[7]
     phone = line[6]
     d = [
         ('AddressLine', address),
-        ('Email', address),
+        ('Email', email),
         ('Phone', phone),
     ]
-    xml = pairlistToXml('Person', d, object_id=person_id)
+    xml = pairlistToXml('ContactInformation', d, identifier=identifier)
     return xml
 
 
@@ -83,11 +84,14 @@ def line_to_xml(line):
       Address & Zip, Telephone, Email, FileDate
     """
     person_id = line[0]
+    xml = make_contact_info(line, person_id=person_id)
     name = line[4]
     d = [
         ('name', name),
     ]
-    return pairlistToXml('Person', d, object_id=person_id)
+    xml += pairlistToXml('Person', d, object_id=person_id)
+
+    return xml
 
 
 def parse_candidates():

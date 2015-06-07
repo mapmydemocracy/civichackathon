@@ -30,10 +30,7 @@ def pairlistToXml(elemName, contents, object_id=None, identifier=None):
     if identifier is not None:
         attrs += ' {0}'.format(make_attr('identifier', identifier))
 
-    ret = '<' + elemName
-    if attrs:
-        ret += attrs
-    ret += '>\n'
+    ret = "<{0}{1}>\n".format(elemName, attrs)
     for (k,v) in contents:
         ret = ret + '    <' + k + '>' + v + '</' + k + '>\n'
     ret = ret + '</' + elemName + '>\n'

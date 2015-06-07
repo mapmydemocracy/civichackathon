@@ -3653,105 +3653,275 @@
     <number>11</number>
     <type>city-supervisor</type>
 </ElectoralDistrict>
+<ContactInformation identifier="person_1">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone></Phone>
+</ContactInformation>
 <Person id="1">
     <name>Graham, Kent</name>
 </Person>
+<ContactInformation identifier="person_2">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone>415-995-5801</Phone>
+</ContactInformation>
 <Person id="2">
     <name>Lee, Ed</name>
 </Person>
+<ContactInformation identifier="person_3">
+    <AddressLine>958 Jackson St, 94133</AddressLine>
+    <Email>PanasianSF@yahoo.com</Email>
+    <Phone>415-296-8701</Phone>
+</ContactInformation>
 <Person id="3">
     <name>Pang, Wilma</name>
 </Person>
+<ContactInformation identifier="person_4">
+    <AddressLine>141 Stoneridge Ln 94134</AddressLine>
+    <Email>news4960@hotmail.com</Email>
+    <Phone>415-290-7857</Phone>
+</ContactInformation>
 <Person id="4">
     <name>Aviles, Jose R. Milla</name>
 </Person>
+<ContactInformation identifier="person_5">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone>415-858-5304</Phone>
+</ContactInformation>
 <Person id="5">
     <name>Digman, Joshua</name>
 </Person>
+<ContactInformation identifier="person_6">
+    <AddressLine>290 Turk Street, 94102</AddressLine>
+    <Email>dupreeconsults@usa.com</Email>
+    <Phone>415-366-7218</Phone>
+</ContactInformation>
 <Person id="6">
     <name>DuPree, Eric</name>
 </Person>
+<ContactInformation identifier="person_7">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone></Phone>
+</ContactInformation>
 <Person id="7">
     <name>Fitch, John</name>
 </Person>
+<ContactInformation identifier="person_8">
+    <AddressLine>520 Frederick St Apt 13, 94117</AddressLine>
+    <Email>occupySF@unseen.is</Email>
+    <Phone>202-643-5052</Phone>
+</ContactInformation>
 <Person id="8">
     <name>Gottschalk, Karla</name>
 </Person>
+<ContactInformation identifier="person_9">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone></Phone>
+</ContactInformation>
 <Person id="9">
     <name>Herrera, Francisco</name>
 </Person>
+<ContactInformation identifier="person_10">
+    <AddressLine>P.O. Box 425314, 94142</AddressLine>
+    <Email>bahomran@gmail.com</Email>
+    <Phone></Phone>
+</ContactInformation>
 <Person id="10">
     <name>Homran, Bilal</name>
 </Person>
+<ContactInformation identifier="person_11">
+    <AddressLine>684 Ellis St Apt 203</AddressLine>
+    <Email>ibnAbdullah2016@gmail.com</Email>
+    <Phone>415-579-8606</Phone>
+</ContactInformation>
 <Person id="11">
     <name>Ibn Abdullah, Muhammad-Khalil</name>
 </Person>
+<ContactInformation identifier="person_12">
+    <AddressLine>692 Valencia St., 94110</AddressLine>
+    <Email>nissimlanyadoo@gmail.com</Email>
+    <Phone>415-307-2613</Phone>
+</ContactInformation>
 <Person id="12">
     <name>Lanyadoo, Nissim</name>
 </Person>
+<ContactInformation identifier="person_13">
+    <AddressLine>129 Golden Gate Ave, Apt 504, 94102</AddressLine>
+    <Email>robertjordan2011@yahoo.com</Email>
+    <Phone>415-567-6886</Phone>
+</ContactInformation>
 <Person id="13">
     <name>Jordan, Robert Jr.</name>
 </Person>
+<ContactInformation identifier="person_14">
+    <AddressLine></AddressLine>
+    <Email>jlefave@gmail.com</Email>
+    <Phone>310-991-4343</Phone>
+</ContactInformation>
 <Person id="14">
     <name>Lefebvre, Jim</name>
 </Person>
+<ContactInformation identifier="person_15">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone></Phone>
+</ContactInformation>
 <Person id="15">
     <name>McGovern-Calder, Seamus</name>
 </Person>
+<ContactInformation identifier="person_16">
+    <AddressLine>107 Biythdale Ave</AddressLine>
+    <Email>harold.miller.for.s.f.mayor@gmail.com</Email>
+    <Phone>415-841-0840</Phone>
+</ContactInformation>
 <Person id="16">
     <name>Miller, Harold</name>
 </Person>
+<ContactInformation identifier="person_17">
+    <AddressLine>7 Maddux Ave</AddressLine>
+    <Email>blacklifethethirdtestament@gmail.com</Email>
+    <Phone>415-282-6172</Phone>
+</ContactInformation>
 <Person id="17">
     <name>Mims, Antonio Elmo</name>
 </Person>
+<ContactInformation identifier="person_18">
+    <AddressLine>P.O. Box 12521, 94112</AddressLine>
+    <Email></Email>
+    <Phone>415-573-9067</Phone>
+</ContactInformation>
 <Person id="18">
     <name>Mondares, Alexander</name>
 </Person>
+<ContactInformation identifier="person_19">
+    <AddressLine>731 Cortland Ave</AddressLine>
+    <Email>ignacio930@hotmail.com</Email>
+    <Phone>415-285-8809</Phone>
+</ContactInformation>
 <Person id="19">
     <name>Nunez, Ignacio L.</name>
 </Person>
+<ContactInformation identifier="person_20">
+    <AddressLine>132 Clinton Park Apt 1, 94103</AddressLine>
+    <Email></Email>
+    <Phone>415-621-6267</Phone>
+</ContactInformation>
 <Person id="20">
     <name>Petrelis, Michael</name>
 </Person>
+<ContactInformation identifier="person_21">
+    <AddressLine>940 San Jose Ave, 94110</AddressLine>
+    <Email>knnth_richard@yahoo.com</Email>
+    <Phone>415-690-5609</Phone>
+</ContactInformation>
 <Person id="21">
     <name>Richard, Kenneth</name>
 </Person>
+<ContactInformation identifier="person_22">
+    <AddressLine>3128 Cesar Chavez St, 94110</AddressLine>
+    <Email>gaynorsiataga@hotmail.com</Email>
+    <Phone>415-724-9193</Phone>
+</ContactInformation>
 <Person id="22">
     <name>Siataga, Gaynorann</name>
 </Person>
+<ContactInformation identifier="person_23">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone></Phone>
+</ContactInformation>
 <Person id="23">
     <name>Weiss, Amy Farah</name>
 </Person>
+<ContactInformation identifier="person_24">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone></Phone>
+</ContactInformation>
 <Person id="24">
     <name>Mirkarimi, Ross</name>
 </Person>
+<ContactInformation identifier="person_25">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone></Phone>
+</ContactInformation>
 <Person id="25">
     <name>Hennessy, Vicki</name>
 </Person>
+<ContactInformation identifier="person_26">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone>415-553-1741</Phone>
+</ContactInformation>
 <Person id="26">
     <name>Gascon, George</name>
 </Person>
+<ContactInformation identifier="person_27">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone></Phone>
+</ContactInformation>
 <Person id="27">
     <name>Carroll, Thurman Ogden, III</name>
 </Person>
+<ContactInformation identifier="person_28">
+    <AddressLine>425 Market St., 26th Floor, 94105</AddressLine>
+    <Email></Email>
+    <Phone>415-995-5801</Phone>
+</ContactInformation>
 <Person id="28">
     <name>Christensen, Julie</name>
 </Person>
+<ContactInformation identifier="person_29">
+    <AddressLine>470 Columbus #211, 94133</AddressLine>
+    <Email></Email>
+    <Phone></Phone>
+</ContactInformation>
 <Person id="29">
     <name>Peskin, Aaron</name>
 </Person>
+<ContactInformation identifier="person_30">
+    <AddressLine></AddressLine>
+    <Email></Email>
+    <Phone></Phone>
+</ContactInformation>
 <Person id="30">
     <name>Herrera, Dennis</name>
 </Person>
+<ContactInformation identifier="person_31">
+    <AddressLine>534 2nd Ave #5, 94121</AddressLine>
+    <Email>wendolyn.aragon@gmail.com</Email>
+    <Phone>415-350-4765</Phone>
+</ContactInformation>
 <Person id="31">
     <name>Aragon, Wendy</name>
 </Person>
+<ContactInformation identifier="person_32">
+    <AddressLine>1465 S. Van Ness Ave, 94110</AddressLine>
+    <Email>ttemprano@gmail.com</Email>
+    <Phone>415-622-5301</Phone>
+</ContactInformation>
 <Person id="32">
     <name>Temprano, Tom</name>
 </Person>
+<ContactInformation identifier="person_33">
+    <AddressLine>2910 Anza St, 94121</AddressLine>
+    <Email></Email>
+    <Phone>415-240-3036</Phone>
+</ContactInformation>
 <Person id="33">
     <name>Tham, Joseph</name>
 </Person>
+<ContactInformation identifier="person_34">
+    <AddressLine>258 6th Ave, 94118</AddressLine>
+    <Email>Jsnzeng@gmail.com</Email>
+    <Phone>415-645-3548</Phone>
+</ContactInformation>
 <Person id="34">
     <name>Zeng, Jason</name>
 </Person>
