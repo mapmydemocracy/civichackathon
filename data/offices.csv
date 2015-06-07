@@ -1,25 +1,25 @@
 Office_ID,Office,Max Terms,Term Length (Years),Next Election,Electoral District
-1,Mayor,2,4,11/3/2015,City
-2,Assessor-Recorder,unlimited,4,11/6/2018,City
-3,City Attorney,unlimited,4,11/3/2015,City
-4,District Attorney,unlimited,4,11/3/2015,City
-5,Public Defender,unlimited,4,11/6/2018,City
-6,Sheriff,unlimited,4,11/3/2015,City
-7,Treasurer,unlimited,4,11/3/2015,City
-8,Board of Supervisors,2,4,,District 1
-9,Board of Supervisors,2,4,,District 2
-10,Board of Supervisors,2,4,,District 3
-11,Board of Supervisors,2,4,,District 4
-12,Board of Supervisors,2,4,,District 5
-13,Board of Supervisors,2,4,,District 6
-14,Board of Supervisors,2,4,,District 7
-15,Board of Supervisors,2,4,,District 8
-16,Board of Supervisors,2,4,,District 9
-17,Board of Supervisors,2,4,,District 10
-18,Board of Supervisors,2,4,,District 11
-19,Board of Education,unlimited,4,,City
-20,Community College Board,unlimited,4,,City
-21,BART Board of Directors,unlimited,4,,District 7
-22,BART Board of Directors,unlimited,4,,District 8
-23,BART Board of Directors,unlimited,4,,District 9
-24,Superior Court Judges,unlimited,6,,County
+1,Mayor,2,4,11/3/2015,SF
+2,Assessor-Recorder,unlimited,4,11/6/2018,SF
+3,City Attorney,unlimited,4,11/3/2015,SF
+4,District Attorney,unlimited,4,11/3/2015,SF
+5,Public Defender,unlimited,4,11/6/2018,SF
+6,Sheriff,unlimited,4,11/3/2015,SF
+7,Treasurer,unlimited,4,11/3/2015,SF
+8,Board of Supervisors,2,4,,SF_01
+9,Board of Supervisors,2,4,,SF_02
+10,Board of Supervisors,2,4,,SF_03
+11,Board of Supervisors,2,4,,SF_04
+12,Board of Supervisors,2,4,,SF_05
+13,Board of Supervisors,2,4,,SF_06
+14,Board of Supervisors,2,4,,SF_07
+15,Board of Supervisors,2,4,,SF_08
+16,Board of Supervisors,2,4,,SF_09
+17,Board of Supervisors,2,4,,SF_10
+18,Board of Supervisors,2,4,,SF_11
+19,Board of Education,unlimited,4,,SF
+20,Community College Board,unlimited,4,,SF
+21,BART Board of Directors,unlimited,4,,BART_07
+22,BART Board of Directors,unlimited,4,,BART_08
+23,BART Board of Directors,unlimited,4,,BART_09
+24,Superior Court Judges,unlimited,6,,SF

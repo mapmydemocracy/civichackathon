@@ -4132,121 +4132,121 @@
 <OfficeID id="1">
   <OfficeHolderPersonId>Mayor</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>City</ElectoralDistrictId>
+  <ElectoralDistrictId>SF</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="2">
   <OfficeHolderPersonId>Assessor-Recorder</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>City</ElectoralDistrictId>
+  <ElectoralDistrictId>SF</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="3">
   <OfficeHolderPersonId>City Attorney</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>City</ElectoralDistrictId>
+  <ElectoralDistrictId>SF</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="4">
   <OfficeHolderPersonId>District Attorney</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>City</ElectoralDistrictId>
+  <ElectoralDistrictId>SF</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="5">
   <OfficeHolderPersonId>Public Defender</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>City</ElectoralDistrictId>
+  <ElectoralDistrictId>SF</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="6">
   <OfficeHolderPersonId>Sheriff</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>City</ElectoralDistrictId>
+  <ElectoralDistrictId>SF</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="7">
   <OfficeHolderPersonId>Treasurer</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>City</ElectoralDistrictId>
+  <ElectoralDistrictId>SF</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="8">
   <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 1</ElectoralDistrictId>
+  <ElectoralDistrictId>SF_01</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="9">
   <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 2</ElectoralDistrictId>
+  <ElectoralDistrictId>SF_02</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="10">
   <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 3</ElectoralDistrictId>
+  <ElectoralDistrictId>SF_03</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="11">
   <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 4</ElectoralDistrictId>
+  <ElectoralDistrictId>SF_04</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="12">
   <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 5</ElectoralDistrictId>
+  <ElectoralDistrictId>SF_05</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="13">
   <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 6</ElectoralDistrictId>
+  <ElectoralDistrictId>SF_06</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="14">
   <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 7</ElectoralDistrictId>
+  <ElectoralDistrictId>SF_07</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="15">
   <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 8</ElectoralDistrictId>
+  <ElectoralDistrictId>SF_08</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="16">
   <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 9</ElectoralDistrictId>
+  <ElectoralDistrictId>SF_09</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="17">
   <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 10</ElectoralDistrictId>
+  <ElectoralDistrictId>SF_10</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="18">
   <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 11</ElectoralDistrictId>
+  <ElectoralDistrictId>SF_11</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="19">
   <OfficeHolderPersonId>Board of Education</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>City</ElectoralDistrictId>
+  <ElectoralDistrictId>SF</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="20">
   <OfficeHolderPersonId>Community College Board</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>City</ElectoralDistrictId>
+  <ElectoralDistrictId>SF</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="21">
   <OfficeHolderPersonId>BART Board of Directors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 7</ElectoralDistrictId>
+  <ElectoralDistrictId>BART_07</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="22">
   <OfficeHolderPersonId>BART Board of Directors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 8</ElectoralDistrictId>
+  <ElectoralDistrictId>BART_08</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="23">
   <OfficeHolderPersonId>BART Board of Directors</OfficeHolderPersonId>
   <Term>4</Term>
-  <ElectoralDistrictId>District 9</ElectoralDistrictId>
+  <ElectoralDistrictId>BART_09</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="24">
   <OfficeHolderPersonId>Superior Court Judges</OfficeHolderPersonId>
   <Term>6</Term>
-  <ElectoralDistrictId>County</ElectoralDistrictId>
+  <ElectoralDistrictId>SF</ElectoralDistrictId>
 </OfficeID>
 </VipObject>
