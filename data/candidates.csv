@@ -1,35 +1,35 @@
 PersonId,Office,Office_ID,CandidatePreElectionStatus,Name,Address & Zip,Telephone,Email,FileDate
-1,Mayor,1,qualified,"Graham, Kent",,,,6/2/2015
-2,Mayor,1,qualified,"Lee, Ed",,415-995-5801,,6/1/2015
-3,"Board of Supervisors, District 3",10,qualified,"Pang, Wilma","958 Jackson St, 94133",415-296-8701,PanasianSF@yahoo.com,6/3/2015
-4,Mayor,1,filed,"Aviles, Jose R. Milla",141 Stoneridge Ln 94134,415-290-7857,news4960@hotmail.com,2/26/2013
-5,Mayor,1,filed,"Digman, Joshua",,415-858-5304,,1/13/2015
-6,Mayor,1,filed,"DuPree, Eric","290 Turk Street, 94102",415-366-7218,dupreeconsults@usa.com,3/17/2015
-7,Mayor,1,filed,"Fitch, John",,,,1/20/2015
-8,Mayor,1,filed,"Gottschalk, Karla","520 Frederick St Apt 13, 94117",202-643-5052,occupySF@unseen.is,5/11/2015
-9,Mayor,1,filed,"Herrera, Francisco",,,,3/23/2015
-10,Mayor,1,filed,"Homran, Bilal","P.O. Box 425314, 94142",,bahomran@gmail.com,1/30/2015
-11,Mayor,1,filed,"Ibn Abdullah, Muhammad-Khalil",684 Ellis St Apt 203,415-579-8606,ibnAbdullah2016@gmail.com,7/18/2014
-12,Mayor,1,filed,"Lanyadoo, Nissim","692 Valencia St., 94110",415-307-2613,nissimlanyadoo@gmail.com,3/6/2015
-13,Mayor,1,filed,"Jordan, Robert Jr.","129 Golden Gate Ave, Apt 504, 94102",415-567-6886,robertjordan2011@yahoo.com,9/11/2014
-14,Mayor,1,filed,"Lefebvre, Jim",,310-991-4343,jlefave@gmail.com,5/20/2014
-15,Mayor,1,filed,"McGovern-Calder, Seamus",,,,12/5/2014
-16,Mayor,1,filed,"Miller, Harold",107 Biythdale Ave,415-841-0840,harold.miller.for.s.f.mayor@gmail.com,11/18/2011
-17,Mayor,1,filed,"Mims, Antonio Elmo",7 Maddux Ave,415-282-6172,blacklifethethirdtestament@gmail.com,11/28/2011
-18,Mayor,1,filed,"Mondares, Alexander","P.O. Box 12521, 94112",415-573-9067,,3/19/2013
-19,Mayor,1,filed,"Nunez, Ignacio L.",731 Cortland Ave,415-285-8809,ignacio930@hotmail.com,11/30/2012
-20,Mayor,1,filed,"Petrelis, Michael","132 Clinton Park Apt 1, 94103",415-621-6267,,11/6/2014
-21,Mayor,1,filed,"Richard, Kenneth","940 San Jose Ave, 94110",415-690-5609,knnth_richard@yahoo.com,12/11/2014
-22,Mayor,1,filed,"Siataga, Gaynorann","3128 Cesar Chavez St, 94110",415-724-9193,gaynorsiataga@hotmail.com,5/12/2015
-23,Mayor,1,filed,"Weiss, Amy Farah",,,,12/8/2014
-24,Sheriff,6,filed,"Mirkarimi, Ross",,,,1/3/2014
-25,Sheriff,6,filed,"Hennessy, Vicki",,,,1/12/2015
+1,Mayor,1,qualified,"Graham, Kent",,,,2015-06-02
+2,Mayor,1,qualified,"Lee, Ed",,415-995-5801,,2015-06-01
+3,"Board of Supervisors, District 3",10,qualified,"Pang, Wilma","958 Jackson St, 94133",415-296-8701,PanasianSF@yahoo.com,2015-06-03
+4,Mayor,1,filed,"Aviles, Jose R. Milla",141 Stoneridge Ln 94134,415-290-7857,news4960@hotmail.com,2013-02-26
+5,Mayor,1,filed,"Digman, Joshua",,415-858-5304,,2015-01-13
+6,Mayor,1,filed,"DuPree, Eric","290 Turk Street, 94102",415-366-7218,dupreeconsults@usa.com,2015-03-17
+7,Mayor,1,filed,"Fitch, John",,,,2015-01-20
+8,Mayor,1,filed,"Gottschalk, Karla","520 Frederick St Apt 13, 94117",202-643-5052,occupySF@unseen.is,2015-05-11
+9,Mayor,1,filed,"Herrera, Francisco",,,,2015-03-23
+10,Mayor,1,filed,"Homran, Bilal","P.O. Box 425314, 94142",,bahomran@gmail.com,2015-01-30
+11,Mayor,1,filed,"Ibn Abdullah, Muhammad-Khalil",684 Ellis St Apt 203,415-579-8606,ibnAbdullah2016@gmail.com,2014-07-18
+12,Mayor,1,filed,"Lanyadoo, Nissim","692 Valencia St., 94110",415-307-2613,nissimlanyadoo@gmail.com,2015-03-06
+13,Mayor,1,filed,"Jordan, Robert Jr.","129 Golden Gate Ave, Apt 504, 94102",415-567-6886,robertjordan2011@yahoo.com,2014-09-11
+14,Mayor,1,filed,"Lefebvre, Jim",,310-991-4343,jlefave@gmail.com,2014-05-20
+15,Mayor,1,filed,"McGovern-Calder, Seamus",,,,2014-12-05
+16,Mayor,1,filed,"Miller, Harold",107 Biythdale Ave,415-841-0840,harold.miller.for.s.f.mayor@gmail.com,2011-11-18
+17,Mayor,1,filed,"Mims, Antonio Elmo",7 Maddux Ave,415-282-6172,blacklifethethirdtestament@gmail.com,2011-11-28
+18,Mayor,1,filed,"Mondares, Alexander","P.O. Box 12521, 94112",415-573-9067,,2013-03-19
+19,Mayor,1,filed,"Nunez, Ignacio L.",731 Cortland Ave,415-285-8809,ignacio930@hotmail.com,2012-11-30
+20,Mayor,1,filed,"Petrelis, Michael","132 Clinton Park Apt 1, 94103",415-621-6267,,2014-11-06
+21,Mayor,1,filed,"Richard, Kenneth","940 San Jose Ave, 94110",415-690-5609,knnth_richard@yahoo.com,2014-12-11
+22,Mayor,1,filed,"Siataga, Gaynorann","3128 Cesar Chavez St, 94110",415-724-9193,gaynorsiataga@hotmail.com,2015-05-12
+23,Mayor,1,filed,"Weiss, Amy Farah",,,,2014-12-08
+24,Sheriff,6,filed,"Mirkarimi, Ross",,,,2014-01-03
+25,Sheriff,6,filed,"Hennessy, Vicki",,,,2015-01-12
 26,District Attorney ,4,filed,"Gascon, George",,415-553-1741,,
-27,"Board of Supervisors, District 3",10,filed,"Carroll, Thurman Ogden, III",,,,5/14/2015
-28,"Board of Supervisors, District 3",10,filed,"Christensen, Julie","425 Market St., 26th Floor, 94105",415-995-5801,,1/16/2015
-29,"Board of Supervisors, District 3",10,filed,"Peskin, Aaron","470 Columbus #211, 94133",,,3/30/2015
-30,City Attorney,3,filed,"Herrera, Dennis",,,,12/12/2014
-31,Community College Board,20,filed,"Aragon, Wendy","534 2nd Ave #5, 94121",415-350-4765,wendolyn.aragon@gmail.com,4/20/2015
-32,Community College Board,20,filed,"Temprano, Tom","1465 S. Van Ness Ave, 94110",415-622-5301,ttemprano@gmail.com,4/27/2015
-33,Community College Board,20,filed,"Tham, Joseph","2910 Anza St, 94121",415-240-3036,,5/11/2015
-34,Community College Board,20,filed,"Zeng, Jason","258 6th Ave, 94118",415-645-3548,Jsnzeng@gmail.com,5/1/2015
+27,"Board of Supervisors, District 3",10,filed,"Carroll, Thurman Ogden, III",,,,2015-05-14
+28,"Board of Supervisors, District 3",10,filed,"Christensen, Julie","425 Market St., 26th Floor, 94105",415-995-5801,,2015-01-16
+29,"Board of Supervisors, District 3",10,filed,"Peskin, Aaron","470 Columbus #211, 94133",,,2015-03-30
+30,City Attorney,3,filed,"Herrera, Dennis",,,,2014-12-12
+31,Community College Board,20,filed,"Aragon, Wendy","534 2nd Ave #5, 94121",415-350-4765,wendolyn.aragon@gmail.com,2015-04-20
+32,Community College Board,20,filed,"Temprano, Tom","1465 S. Van Ness Ave, 94110",415-622-5301,ttemprano@gmail.com,2015-04-27
+33,Community College Board,20,filed,"Tham, Joseph","2910 Anza St, 94121",415-240-3036,,2015-05-11
+34,Community College Board,20,filed,"Zeng, Jason","258 6th Ave, 94118",415-645-3548,Jsnzeng@gmail.com,2015-05-01

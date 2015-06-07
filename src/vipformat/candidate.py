@@ -39,9 +39,14 @@
 
 """
 import csv
+from datetime import datetime
 
 from vipformat import common
 from vipformat.common import pairlistToXml
+
+
+def make_selection_id(person_number):
+    return "selection_{0}".format(person_number)
 
 
 def make_contact_info(line, person_id):
@@ -82,9 +87,10 @@ def line_to_xml(line):
       PersonId, Office, Office_ID, CandidatePreElectionStatus, Name,
       Address & Zip, Telephone, Email, FileDate
     """
-    person_id = "person_{0}".format(line[0])
+    person_number = line[0]
+    person_id = "person_{0}".format(person_number)
 
-    file_date = line[8]
+    file_dt = line[8]
     name = line[4]
     pre_election_status = line[3]
 
@@ -92,18 +98,31 @@ def line_to_xml(line):
     contact_info_xml = make_contact_info(line, person_id=person_id)
     d = [
         contact_info_xml,
-        ('Name', name),
+        common.make_xml_internationalized('FullName', name),
     ]
     xml = pairlistToXml('Person', d, object_id=person_id)
 
     # Candidate object
-    d = [
-        ('BallotName', name),
-        ('FileDate', file_date),
-        ('PersonId', name),
+    candidate_id = "candidate_{0}".format(person_number)
+    d = [common.make_xml_internationalized('BallotName', name)]
+    if file_dt:
+        dt_parts = [int(n) for n in file_dt.split("-")]  # year, month, day
+        file_date_time = datetime(*dt_parts)
+        # FileDate is actually xs:dateTime.
+        file_date = common.make_xml_datetime(file_date_time)
+        d.append(('FileDate', file_date))
+    d.extend([
+        ('PersonId', person_id),
         ('PreElectionStatus', pre_election_status),
+    ])
+    xml += pairlistToXml('Candidate', d, object_id=candidate_id)
+
+    # CandidateSelection object
+    selection_id = make_selection_id(person_number)
+    d = [
+        ('CandidateId', candidate_id),
     ]
-    xml += pairlistToXml('Candidate', d, object_id=person_id)
+    xml += pairlistToXml('CandidateSelection', d, object_id=selection_id)
 
     return xml
 

@@ -6,6 +6,8 @@ import textwrap
 
 # VIP recommends 2-space indents.
 INDENT = 2 * ' '
+SF_LOCALITY_ID = "locality_1"
+
 
 def indent(text):
     lines = text.splitlines(True)
@@ -25,15 +27,31 @@ def csv_lines(base_name):
 
     """
     path = os.path.join('data', base_name)
-    with open(path, 'rb') as csvfile:
+    with open(path, 'r') as csvfile:
         csvreader = csv.reader(csvfile)
         # Skip header line.
         next(csvreader)
         for line in csvreader:
             yield line
 
+
+def make_xml_datetime(dt):
+    """Return a datetime string in xs:dateTime format.
+
+    For example: "2002-05-30T09:00:00".
+    """
+    return dt.isoformat()
+
+
+def make_xml_internationalized(name, value):
+    d = ['<Text language="en">{0}</Text>\n'.format(value)]
+    xml = pairlistToXml(name, d)
+    return xml
+
+
 def make_attr(key, value):
     return '{0}="{1}"'.format(key, value)
+
 
 def pairlistToXml(elemName, contents, object_id=None, identifier=None):
     attrs = ''
@@ -44,7 +62,7 @@ def pairlistToXml(elemName, contents, object_id=None, identifier=None):
 
     ret = "<{0}{1}>\n".format(elemName, attrs)
     for item in contents:
-        if isinstance(item, basestring):
+        if isinstance(item, str):
             inner = item
         else:
             tag, value = item
