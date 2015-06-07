@@ -1,25 +1,21 @@
 div(ng-include='"components/navbar/navbar.html"')
 
-header#banner.hero-unit
-  .container
-    h1 'Allo, 'Allo!
-    p.lead Kick-start your next web app with Angular Fullstack
-    img(src='assets/images/yeoman.png', alt='I\'m Yeoman')
+div.container-fluid
 
-.container
-  .row
-    .col-lg-12
-      h1.page-header Features:
-      ul.nav.nav-tabs.nav-stacked.col-md-4.col-lg-4.col-sm-6(ng-repeat='thing in awesomeThings')
-        li
-          a(href='#', tooltip='{{thing.info}}')
-            | {{thing.name}}
+  div.row
+    div(ng-repeat="jury in jurisdictions").col-md-8
+      h3 {{jury.name}}
 
-footer.footer
-  .container
-    p
-      | Angular Fullstack v2.0.13
-      = ' | '
-      a(href='https://twitter.com/tyhenkel') @tyhenkel
-      = ' | '
-      a(href='https://github.com/DaftMonk/generator-angular-fullstack/issues?state=open') Issues
+  //- div.form-horizontal
+  //-   div.form-group
+  //-     label.col-md-2.control-label(for="#inputjurisdictionname")
+  //-     div.col-md-6
+  //-       input#inputjurisdictionname.form-control(type="text",placeholder="Jurisdiction name")
+
+  div.row
+    div.col-md-8 
+    div.col-md-4
+
+  div.row
+    div.col-md-8 
+    div.col-md-4

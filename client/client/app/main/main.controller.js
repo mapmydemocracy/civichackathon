@@ -1,8 +1,9 @@
 'use strict';
 
 angular.module('clientApp')
-  .controller('MainCtrl', function ($scope, $http) {
+  .controller('MainCtrl', function ($scope, $http, jurisdictions) {
     $scope.awesomeThings = [];
+    $scope.jurisdictions = jurisdictions.info;
 
     $http.get('/api/things').success(function(awesomeThings) {
       $scope.awesomeThings = awesomeThings;
