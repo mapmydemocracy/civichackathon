@@ -13,9 +13,10 @@ def emitPrecinct(line, precinct_ids):
         return ''
     precinct_ids.add(precinct_id)
     bos_district = line[9]
+    bos_district_id = electoralDistrict.make_district_id_supervisor(bos_district)
     d = [
         ('ElectoralDistrictId', electoralDistrict.SF_DISTRICT_ID),
-        ('ElectoralDistrictId', electoralDistrict.make_district_id_supervisor(bos_district)),
+        ('ElectoralDistrictId', bos_district_id),
         ('LocalityId', common.SF_LOCALITY_ID),
         ('Name', line[1]),
     ]

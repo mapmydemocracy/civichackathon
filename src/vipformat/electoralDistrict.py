@@ -2,12 +2,21 @@
 from vipformat import common
 
 
+SF_BOS_DISTRICT_TYPE = 'BOS'
 SF_DISTRICT_ID = 'district_sf'
 electoralDistricts = {}
 
+def make_district_id(district_type, district_number):
+    if district_type == 'SF':
+        return SF_DISTRICT_ID
+    num = int(district_number)
+    if district_type == SF_BOS_DISTRICT_TYPE:
+        return 'district_bos_' + "{0:02d}".format(num)
+    else:
+        raise Exception("unknown district type: {0}".format(district_type))
+
 def make_district_id_supervisor(num):
-    num = int(num)
-    return 'district_bos_' + "{0:02d}".format(num)
+    return make_district_id(SF_BOS_DISTRICT_TYPE, num)
 
 def emitCitywideDistrict():
     d = [

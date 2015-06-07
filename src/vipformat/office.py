@@ -8,8 +8,34 @@ def make_office_id(number):
     return 'office_{0}'.format(number)
 
 def emitOffice(line, office_id):
+    """
+    <xs:complexType name="Office">
+      <xs:sequence>
+        <xs:element name="ContactInformation" type="ContactInformation" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="ElectoralDistrictId" type="xs:IDREF" />
+        <xs:element name="ExternalIdentifiers" type="ExternalIdentifiers" minOccurs="0" />
+        <xs:element name="FilingDeadline" type="xs:date" minOccurs="0" />
+        <xs:element name="IsPartisan" type="xs:boolean" minOccurs="0" />
+        <xs:element name="Name" type="InternationalizedText" />
+        <xs:element name="OfficeHolderPersonId" type="xs:IDREF" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="Term" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Type" type="OfficeTermType" />
+              <xs:element name="StartDate" type="xs:date" minOccurs="0" />
+              <xs:element name="EndDate" type="xs:date" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID" use="required" />
+    </xs:complexType>
+    """
+    district_type = line[5]
+    district_number = line[6]
+    district_id = electoralDistrict.make_district_id(district_type, district_number)
     d = [
-        ('ElectoralDistrictId', line[5]),
+        ('ElectoralDistrictId', district_id),
         ('Name', '<Text language="en">'+line[1]+'</Text>'),
     ]
     return common.pairlistToXml('Office', d, object_id=office_id)

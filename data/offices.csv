@@ -1,25 +1,25 @@
-Office_ID,Office,Max Terms,Term Length (Years),Next Election,Electoral District,VoteVariation
-1,Mayor,2,4,11/3/2015,SF,rcv
-2,Assessor-Recorder,unlimited,4,11/6/2018,SF,rcv
-3,City Attorney,unlimited,4,11/3/2015,SF,rcv
-4,District Attorney,unlimited,4,11/3/2015,SF,rcv
-5,Public Defender,unlimited,4,11/6/2018,SF,rcv
-6,Sheriff,unlimited,4,11/3/2015,SF,rcv
-7,Treasurer,unlimited,4,11/3/2015,SF,rcv
-8,Board of Supervisors,2,4,,SF_01,rcv
-9,Board of Supervisors,2,4,,SF_02,rcv
-10,Board of Supervisors,2,4,,SF_03,rcv
-11,Board of Supervisors,2,4,,SF_04,rcv
-12,Board of Supervisors,2,4,,SF_05,rcv
-13,Board of Supervisors,2,4,,SF_06,rcv
-14,Board of Supervisors,2,4,,SF_07,rcv
-15,Board of Supervisors,2,4,,SF_08,rcv
-16,Board of Supervisors,2,4,,SF_09,rcv
-17,Board of Supervisors,2,4,,SF_10,rcv
-18,Board of Supervisors,2,4,,SF_11,rcv
-19,Board of Education,unlimited,4,,SF,n-of-m
-20,Community College Board,unlimited,4,,SF,n-of-m
-21,BART Board of Directors,unlimited,4,,BART_07,plurality
-22,BART Board of Directors,unlimited,4,,BART_08,plurality
-23,BART Board of Directors,unlimited,4,,BART_09,plurality
-24,Superior Court Judges,unlimited,6,,SF,majority
+Office_ID,Office,Max Terms,Term Length (Years),Next Election,District Type,District Number,VoteVariation
+1,Mayor,2,4,11/3/2015,SF,,rcv
+2,Assessor-Recorder,unlimited,4,11/6/2018,SF,,rcv
+3,City Attorney,unlimited,4,11/3/2015,SF,,rcv
+4,District Attorney,unlimited,4,11/3/2015,SF,,rcv
+5,Public Defender,unlimited,4,11/6/2018,SF,,rcv
+6,Sheriff,unlimited,4,11/3/2015,SF,,rcv
+7,Treasurer,unlimited,4,11/3/2015,SF,,rcv
+8,Board of Supervisors,2,4,,BOS,1,rcv
+9,Board of Supervisors,2,4,,BOS,2,rcv
+10,Board of Supervisors,2,4,,BOS,3,rcv
+11,Board of Supervisors,2,4,,BOS,4,rcv
+12,Board of Supervisors,2,4,,BOS,5,rcv
+13,Board of Supervisors,2,4,,BOS,6,rcv
+14,Board of Supervisors,2,4,,BOS,7,rcv
+15,Board of Supervisors,2,4,,BOS,8,rcv
+16,Board of Supervisors,2,4,,BOS,9,rcv
+17,Board of Supervisors,2,4,,BOS,10,rcv
+18,Board of Supervisors,2,4,,BOS,11,rcv
+19,Board of Education,unlimited,4,,SF,,n-of-m
+20,Community College Board,unlimited,4,,SF,,n-of-m
+21,BART Board of Directors,unlimited,4,,BART,7,plurality
+22,BART Board of Directors,unlimited,4,,BART,8,plurality
+23,BART Board of Directors,unlimited,4,,BART,9,plurality
+24,Superior Court Judges,unlimited,6,,SF,,majority

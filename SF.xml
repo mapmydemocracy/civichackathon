@@ -4369,7 +4369,7 @@
     <CandidateId>candidate_34</CandidateId>
   </CandidateSelection>
   <Office id="office_1">
-    <ElectoralDistrictId>SF</ElectoralDistrictId>
+    <ElectoralDistrictId>district_sf</ElectoralDistrictId>
     <Name><Text language="en">Mayor</Text></Name>
   </Office>
   <CandidateContest id="contest_1">
@@ -4402,7 +4402,7 @@
     <VotesAllowed>1</VotesAllowed>
   </CandidateContest>
   <Office id="office_3">
-    <ElectoralDistrictId>SF</ElectoralDistrictId>
+    <ElectoralDistrictId>district_sf</ElectoralDistrictId>
     <Name><Text language="en">City Attorney</Text></Name>
   </Office>
   <CandidateContest id="contest_3">
@@ -4414,7 +4414,7 @@
     <VotesAllowed>1</VotesAllowed>
   </CandidateContest>
   <Office id="office_4">
-    <ElectoralDistrictId>SF</ElectoralDistrictId>
+    <ElectoralDistrictId>district_sf</ElectoralDistrictId>
     <Name><Text language="en">District Attorney</Text></Name>
   </Office>
   <CandidateContest id="contest_4">
@@ -4426,7 +4426,7 @@
     <VotesAllowed>1</VotesAllowed>
   </CandidateContest>
   <Office id="office_6">
-    <ElectoralDistrictId>SF</ElectoralDistrictId>
+    <ElectoralDistrictId>district_sf</ElectoralDistrictId>
     <Name><Text language="en">Sheriff</Text></Name>
   </Office>
   <CandidateContest id="contest_6">
@@ -4439,7 +4439,7 @@
     <VotesAllowed>1</VotesAllowed>
   </CandidateContest>
   <Office id="office_10">
-    <ElectoralDistrictId>SF_03</ElectoralDistrictId>
+    <ElectoralDistrictId>district_bos_03</ElectoralDistrictId>
     <Name><Text language="en">Board of Supervisors</Text></Name>
   </Office>
   <CandidateContest id="contest_10">
@@ -4447,14 +4447,14 @@
     <BallotSelectionId>selection_27</BallotSelectionId>
     <BallotSelectionId>selection_28</BallotSelectionId>
     <BallotSelectionId>selection_29</BallotSelectionId>
-    <ElectoralDistrictId>SF_03</ElectoralDistrictId>
+    <ElectoralDistrictId>BOS</ElectoralDistrictId>
     <Name>Board of Supervisors</Name>
     <NumberElected>1</NumberElected>
     <OfficeId>office_10</OfficeId>
     <VotesAllowed>1</VotesAllowed>
   </CandidateContest>
   <Office id="office_20">
-    <ElectoralDistrictId>SF</ElectoralDistrictId>
+    <ElectoralDistrictId>district_sf</ElectoralDistrictId>
     <Name><Text language="en">Community College Board</Text></Name>
   </Office>
   <CandidateContest id="contest_20">
