@@ -4242,8 +4242,8 @@
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>Mayor</Name>
     <NumberElected>1</NumberElected>
+    <OfficeId>1</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <OfficeID>1</OfficeID>
     <BallotSelectionId>1</BallotSelectionId>
     <BallotSelectionId>2</BallotSelectionId>
     <BallotSelectionId>4</BallotSelectionId>
@@ -4275,8 +4275,8 @@
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>City Attorney</Name>
     <NumberElected>1</NumberElected>
+    <OfficeId>3</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <OfficeID>3</OfficeID>
     <BallotSelectionId>30</BallotSelectionId>
   </CandidateContest>
   <Office id="4">
@@ -4287,8 +4287,8 @@
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>District Attorney</Name>
     <NumberElected>1</NumberElected>
+    <OfficeId>4</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <OfficeID>4</OfficeID>
     <BallotSelectionId>26</BallotSelectionId>
   </CandidateContest>
   <Office id="6">
@@ -4299,8 +4299,8 @@
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>Sheriff</Name>
     <NumberElected>1</NumberElected>
+    <OfficeId>6</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <OfficeID>6</OfficeID>
     <BallotSelectionId>24</BallotSelectionId>
     <BallotSelectionId>25</BallotSelectionId>
   </CandidateContest>
@@ -4312,8 +4312,8 @@
     <ElectoralDistrictId>SF_03</ElectoralDistrictId>
     <Name>Board of Supervisors</Name>
     <NumberElected>1</NumberElected>
+    <OfficeId>10</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <OfficeID>10</OfficeID>
     <BallotSelectionId>3</BallotSelectionId>
     <BallotSelectionId>27</BallotSelectionId>
     <BallotSelectionId>28</BallotSelectionId>
@@ -4327,8 +4327,8 @@
     <ElectoralDistrictId>SF</ElectoralDistrictId>
     <Name>Community College Board</Name>
     <NumberElected>1</NumberElected>
+    <OfficeId>20</OfficeId>
     <VotesAllowed>1</VotesAllowed>
-    <OfficeID>20</OfficeID>
     <BallotSelectionId>31</BallotSelectionId>
     <BallotSelectionId>32</BallotSelectionId>
     <BallotSelectionId>33</BallotSelectionId>

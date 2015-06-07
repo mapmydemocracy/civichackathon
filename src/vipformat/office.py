@@ -20,8 +20,8 @@ def emitContest(line, candidateIds):
         ('ElectoralDistrictId', line[5]),
         ('Name', contest_name),
         ('NumberElected', '1'),
+        ('OfficeId', line[0]),
         ('VotesAllowed', '1'),
-        ('OfficeID', line[0])
     ]
     for cand in candidateIds:
         d.append(('BallotSelectionId', cand))
