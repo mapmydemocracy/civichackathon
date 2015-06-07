@@ -5,8 +5,7 @@ def emitOffice(line):
     object_id = line[0]
     d = [
         ('OfficeHolderPersonId', line[1]), 
-        ('Term', line[3]), 
-        ('ElectoralDistrictId', line[5])]
+        ('Name', line[5])]
     return common.pairlistToXml('Office', d, object_id=object_id)
     
 def emitAllOffices():
