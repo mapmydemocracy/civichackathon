@@ -14,7 +14,7 @@ angular.module('clientApp')
     $scope.district_name = "District 3";
     $scope.contest_date = new Date('2015', '11', '05').toString();
 
-
+    $scope.step = 1
 
 
     $scope.addJurisdiction = function() {

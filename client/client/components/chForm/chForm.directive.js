@@ -7,6 +7,7 @@ angular.module('clientApp')
       restrict    : 'EA',
       scope       : {
         	title        : '@',
+          step         : '=',
           items        : '=',
           type         : '@',
           add          : "=",
@@ -23,5 +24,9 @@ angular.module('clientApp')
 
 .controller("chFormCtrl", ['$scope', '$state', '$http', 
 	function($scope, $state, $http){
-		
+
+    // console.log(step)
+		$scope.stepForward = function() {
+      $scope.step = $scope.step + 1
+    }
 	}]);

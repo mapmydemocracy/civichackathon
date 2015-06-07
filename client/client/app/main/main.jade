@@ -1,12 +1,12 @@
 div(ng-include='"components/navbar/navbar.html"')
 
 div.container-fluid
-  div(ch-form, items="jurisdictions", title="Jurisdictions", type="jurisdiction", add="add")
+  div(ch-form, items="jurisdictions", title="Jurisdictions", type="jurisdiction", add="add", step="step", ng-show="step === 1")
   
-  div(ch-form, items="jurisdiction.offices", title="Offices", type="office", add="add")
+  div(ch-form, items="jurisdiction.offices", title="Offices", type="office", add="add", step="step", ng-show="step === 2")
 
-  div(ch-form, items="office.districts", title="Districts", type="district", add="add")
+  div(ch-form, items="office.districts", title="Districts", type="district", add="add", step="step", ng-show="step === 3")
 
-  div(ch-form, items="district.contests", title="Contests", type="contest", add="add")
+  div(ch-form, items="district.contests", title="Contests", type="contest", add="add", step="step", ng-show="step === 4")
 
-  div(ch-form, items="contest.candidates", title="Candidates", type="candidate", add="add")
+  div(ch-form, items="contest.candidates", title="Candidates", type="candidate", add="add", step="step", ng-show="step === 5")
