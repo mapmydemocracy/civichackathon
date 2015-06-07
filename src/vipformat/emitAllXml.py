@@ -2,7 +2,7 @@
 import textwrap
 
 from vipformat.common import indent
-from vipformat import candidate, common, electoralDistrict, office, precinct, verbatim
+from vipformat import candidate, common, electoralDistrict, office, precinct
 
 
 CA_STATE_ID = 'state_ca'
@@ -82,7 +82,3 @@ def emitAll():
     ret += indent(office.emitAllOffices())
     ret += emitEpilog()
     return ret
-
-
-if __name__=='__main__':
-    print emitAll()

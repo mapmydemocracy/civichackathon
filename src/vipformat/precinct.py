@@ -30,6 +30,3 @@ def emitAllPrecincts():
         ret += emitPrecinct(line, precinct_ids)
 
     return ret
-
-if __name__=='__main__':
-    print emitAllPrecincts()

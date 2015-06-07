@@ -1,5 +1,5 @@
 
-import common
+from vipformat import common
 
 
 SF_DISTRICT_ID = 'district_sf'
@@ -32,6 +32,3 @@ def emitAllElectoralDistricts():
     for i in range(1,12):
         ret = ret + emitSupervisorDistrict(str(i))
     return ret
-
-if __name__=='__main__':
-    print emitAllElectoralDistricts()

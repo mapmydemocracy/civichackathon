@@ -53,10 +53,5 @@ def emitAllOffices():
         if office_id in candsForOffices:
             ret += emitOffice(line, office_id=office_id)
             ret += emitContest(line, candsForOffices[office_id], office_id=office_id)
-        
+
     return ret
-
-if __name__=='__main__':
-    print emitAllOffices()
-
-

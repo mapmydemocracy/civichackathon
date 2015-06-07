@@ -27,7 +27,7 @@ def csv_lines(base_name):
 
     """
     path = os.path.join('data', base_name)
-    with open(path, 'rb') as csvfile:
+    with open(path, 'r') as csvfile:
         csvreader = csv.reader(csvfile)
         # Skip header line.
         next(csvreader)
@@ -62,7 +62,7 @@ def pairlistToXml(elemName, contents, object_id=None, identifier=None):
 
     ret = "<{0}{1}>\n".format(elemName, attrs)
     for item in contents:
-        if isinstance(item, basestring):
+        if isinstance(item, str):
             inner = item
         else:
             tag, value = item
