@@ -91,13 +91,6 @@ def line_to_xml(line):
     person_id = "person_{0}".format(person_number)
 
     file_dt = line[8]
-    if file_dt:
-        dt_parts = [int(n) for n in line[8].split("-")]  # year, month, day
-        file_date_time = datetime(*dt_parts)
-        file_date = common.make_xml_datetime(file_date_time)
-    else:
-        file_date = ''
-
     name = line[4]
     pre_election_status = line[3]
 
@@ -105,18 +98,23 @@ def line_to_xml(line):
     contact_info_xml = make_contact_info(line, person_id=person_id)
     d = [
         contact_info_xml,
-        ('Name', name),
+        common.make_xml_internationalized('FullName', name),
     ]
     xml = pairlistToXml('Person', d, object_id=person_id)
 
     # Candidate object
     candidate_id = "candidate_{0}".format(person_number)
-    d = [
-        common.make_xml_internationalized('BallotName', name),
-        ('FileDate', file_date),  # This is actually xs:dateTime.
+    d = [common.make_xml_internationalized('BallotName', name)]
+    if file_dt:
+        dt_parts = [int(n) for n in file_dt.split("-")]  # year, month, day
+        file_date_time = datetime(*dt_parts)
+        # FileDate is actually xs:dateTime.
+        file_date = common.make_xml_datetime(file_date_time)
+        d.append(('FileDate', file_date))
+    d.extend([
         ('PersonId', person_id),
         ('PreElectionStatus', pre_election_status),
-    ]
+    ])
     xml += pairlistToXml('Candidate', d, object_id=candidate_id)
 
     # CandidateSelection object
