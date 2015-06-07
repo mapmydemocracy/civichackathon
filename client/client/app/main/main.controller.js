@@ -3,21 +3,11 @@
 angular.module('clientApp')
   .controller('MainCtrl', function ($scope, $http, jurisdictions) {
     $scope.awesomeThings = [];
-    $scope.jurisdictions = jurisdictions.info;
+    $scope.jurisdictions = jurisdictions.jurisdictions;
 
-    $http.get('/api/things').success(function(awesomeThings) {
-      $scope.awesomeThings = awesomeThings;
-    });
-
-    $scope.addThing = function() {
-      if($scope.newThing === '') {
-        return;
-      }
-      $http.post('/api/things', { name: $scope.newThing });
-      $scope.newThing = '';
-    };
-
-    $scope.deleteThing = function(thing) {
-      $http.delete('/api/things/' + thing._id);
-    };
+    $scope.addJurisdiction = function() {
+      //console.log($scope.newJurisdiction)
+      jurisdictions.addJurisdiction($scope.newJurisdiction)
+    }
+    
   });

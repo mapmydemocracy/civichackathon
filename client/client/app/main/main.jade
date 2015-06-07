@@ -2,15 +2,28 @@ div(ng-include='"components/navbar/navbar.html"')
 
 div.container-fluid
 
-  div.row
-    div(ng-repeat="jury in jurisdictions").col-md-8
-      h3 {{jury.name}}
+  div
+    h4 Jurisdictions
 
-  //- div.form-horizontal
-  //-   div.form-group
-  //-     label.col-md-2.control-label(for="#inputjurisdictionname")
-  //-     div.col-md-6
-  //-       input#inputjurisdictionname.form-control(type="text",placeholder="Jurisdiction name")
+    div(ng-repeat="jury in jurisdictions")
+
+      div.row
+        div.col-md-8
+          h3 {{jury.name}}
+
+    div.row
+      div.form-horizontal
+        div.form-group
+          div.col-md-8
+            input#inputjurisdictionname.form-control(ng-model="newJurisdiction",type="text",placeholder="Jurisdiction name")
+            button(type="button",ng-click="addJurisdiction()").btn.btn-primary
+              text Add
+
+
+  div.row
+    div.col-md-1
+      div(ng-repeat="district in jury.districts").col-md-7
+        text {{district.name}}
 
   div.row
     div.col-md-8 
