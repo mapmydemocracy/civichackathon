@@ -13,7 +13,8 @@ angular.module('clientApp')
     $scope.add = {
 
       jurisdiction: function(jurisdiction){
-        jurisdictions.addJurisdiction($scope.newJurisdiction)
+        console.log('adding jurisd')
+        // jurisdictions.addJurisdiction($scope.newJurisdiction)
       },
 
       district: function(district){
