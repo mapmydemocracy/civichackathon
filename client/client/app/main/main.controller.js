@@ -11,6 +11,7 @@ angular.module('clientApp')
 
     $scope.jurisdiction_name = "jurisdiction_one"
     $scope.office_name = "Supervisor"
+    $scope.district_name = "District 1"
 
 
 
@@ -32,9 +33,9 @@ angular.module('clientApp')
     
     $scope.office = jurisdictions.parseObjArray($scope.jurisdiction.offices, $scope.office_name)
 
-    console.log($scope.office)
+    $scope.district = jurisdictions.parseObjArray($scope.office.districts, $scope.district_name)    
 
-
+    console.log($scope.district)
 
 
 

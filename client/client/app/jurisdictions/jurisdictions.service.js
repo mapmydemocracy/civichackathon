@@ -15,7 +15,17 @@ angular.module('clientApp')
             {
               name: "Supervisor",
               districts: [
-                {name: "District 1"},
+                { name: "District 1",
+                  contests: [
+                    {
+                      date: "11/05/2015",
+                      candidates: [
+                        {name: "Candidate A"},
+                        {name: "Candidate B"}
+                      ]
+                    }
+                  ]
+              },
                 {name: "District 2"}
               ]
             }
