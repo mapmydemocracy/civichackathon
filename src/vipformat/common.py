@@ -4,7 +4,8 @@ import os
 import textwrap
 
 
-INDENT = '    '
+# VIP recommends 2-space indents.
+INDENT = 2 * ' '
 
 def indent(text):
     lines = text.splitlines(True)
