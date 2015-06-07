@@ -10,6 +10,9 @@ The Voting Information Project is a partnership between Pew Charitable
 Trusts and Google.  Google uses the VIP format when pulling in data
 about jurisdictions to power its Google Civic API.
 
+**Note:** The data in this project is not official data and should not
+be relied upon as an official source.  Also, it could be outdated.
+
 
 Setup
 -----
