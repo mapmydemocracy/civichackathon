@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <VipObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="5.0" xsi:noNamespaceSchemaLocation="http://votinginfoproject.github.com/vip-specification/vip_spec.xsd">
+  <State id="state_ca">
+    <Name>California</Name>
+  </State>
 <Precinct id="1101">
   <name>Pct 1101</name>
   <LocalityId>locality_1</LocalityId>
