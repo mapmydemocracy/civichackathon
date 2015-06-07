@@ -7,14 +7,14 @@ from vipformat import common, electoralDistrict
 
 
 def emitPrecinct(line):
-    object_id = line[0]
+    precinct_id = "precinct_{0}".format(line[0])
     d = [
-        ('name', line[1]),
-        ('LocalityId', common.SF_LOCALITY_ID),
         ('ElectoralDistrictId', electoralDistrict.districtName_city),
         ('ElectoralDistrictId', electoralDistrict.districtName_supervisor(line[9])),
+        ('LocalityId', common.SF_LOCALITY_ID),
+        ('Name', line[1]),
     ]
-    return common.pairlistToXml('Precinct', d, object_id=object_id)
+    return common.pairlistToXml('Precinct', d, object_id=precinct_id)
 
 def emitAllPrecincts():
     ret = ''
