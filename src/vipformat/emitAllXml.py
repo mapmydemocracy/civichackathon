@@ -40,9 +40,11 @@ def make_locality():
     </ExternalIdentifiers>
     """)
     d = [
-        ('ElectionAdministrationId', 0),
+        # TODO: Add ElectionAdministration.
+        # ('ElectionAdministrationId', 0),
         external_identifiers_xml,
         ('Name', 'San Francisco'),
+        ('StateId', CA_STATE_ID),
         ('Type', 'county'),
     ]
     xml = common.pairlistToXml('Locality', d, object_id=common.SF_LOCALITY_ID)
