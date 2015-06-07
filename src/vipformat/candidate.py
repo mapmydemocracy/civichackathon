@@ -112,7 +112,7 @@ def line_to_xml(line):
     # Candidate object
     candidate_id = "candidate_{0}".format(person_number)
     d = [
-        ('BallotName', name),
+        common.make_xml_internationalized('BallotName', name),
         ('FileDate', file_date),  # This is actually xs:dateTime.
         ('PersonId', person_id),
         ('PreElectionStatus', pre_election_status),

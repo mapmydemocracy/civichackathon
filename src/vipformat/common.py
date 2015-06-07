@@ -43,6 +43,12 @@ def make_xml_datetime(dt):
     return dt.isoformat()
 
 
+def make_xml_internationalized(name, value):
+    d = ['<Text language="en">{0}</Text>\n'.format(value)]
+    xml = pairlistToXml(name, d)
+    return xml
+
+
 def make_attr(key, value):
     return '{0}="{1}"'.format(key, value)
 
