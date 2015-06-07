@@ -44,6 +44,10 @@ from vipformat import common
 from vipformat.common import pairlistToXml
 
 
+def make_selection_id(person_number):
+    return "selection_{0}".format(person_number)
+
+
 def make_contact_info(line, person_id):
     """
     <xs:complexType name="ContactInformation">
@@ -108,7 +112,7 @@ def line_to_xml(line):
     xml += pairlistToXml('Candidate', d, object_id=candidate_id)
 
     # CandidateSelection object
-    selection_id = "selection_{0}".format(person_number)
+    selection_id = make_selection_id(person_number)
     d = [
         ('CandidateId', candidate_id),
     ]

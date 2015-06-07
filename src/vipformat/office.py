@@ -1,30 +1,33 @@
 
 import csv
 
-from vipformat import common, electoralDistrict
+from vipformat import candidate, common, electoralDistrict
 
-officeCsvFile = '../../data/offices.csv'
 
-def emitOffice(line):
-    object_id = line[0]
+def make_office_id(number):
+    return 'office_{0}'.format(number)
+
+def emitOffice(line, office_id):
     d = [
         ('ElectoralDistrictId', line[5]),
         ('Name', '<Text language="en">'+line[1]+'</Text>'),
     ]
-    return common.pairlistToXml('Office', d, object_id=object_id)
+    return common.pairlistToXml('Office', d, object_id=office_id)
 
-def emitContest(line, candidateIds):
-    object_id = line[0]
+def emitContest(line, candidateIds, office_id):
+    object_id = 'contest_{0}'.format(line[0])
     contest_name = line[1]
-    d = [
+    d = []
+    for candidate_id in candidateIds:
+        selection_id = candidate.make_selection_id(candidate_id)
+        d.append(('BallotSelectionId', selection_id))
+    d.extend([
         ('ElectoralDistrictId', line[5]),
         ('Name', contest_name),
         ('NumberElected', '1'),
-        ('OfficeId', line[0]),
+        ('OfficeId', office_id),
         ('VotesAllowed', '1'),
-    ]
-    for cand in candidateIds:
-        d.append(('BallotSelectionId', cand))
+    ])
 
     return common.pairlistToXml('CandidateContest', d, object_id=object_id)
 
@@ -33,7 +36,7 @@ def getCandsForOffices():
     base_name = 'candidates.csv'
     for line in common.csv_lines(base_name):
         personId = line[0]
-        officeId = line[2]
+        officeId = make_office_id(line[2])
         if officeId in ret:
             ret[officeId].append(personId)
         else:
@@ -46,10 +49,10 @@ def emitAllOffices():
     ret = ''
     base_name = 'offices.csv'
     for line in common.csv_lines(base_name):
-        officeId = line[0]
-        if officeId in candsForOffices:
-            ret += emitOffice(line)
-            ret += emitContest(line, candsForOffices[officeId])
+        office_id = make_office_id(line[0])
+        if office_id in candsForOffices:
+            ret += emitOffice(line, office_id=office_id)
+            ret += emitContest(line, candsForOffices[office_id], office_id=office_id)
         
     return ret
 
