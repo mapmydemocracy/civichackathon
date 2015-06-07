@@ -8,7 +8,7 @@ Pull the repo.  Also pull any submodules:
 
     $ git submodule update --init --recursive
 
-Use Python 2.7
+Use Python 3.4.
 
 To regenerate the XML, from the repo root:
 

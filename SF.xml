@@ -968,12 +968,6 @@
     <LocalityId>locality_1</LocalityId>
     <Name>Pct 7509/7511</Name>
   </Precinct>
-  <Precinct id="precinct_7509">
-    <ElectoralDistrictId>district_sf</ElectoralDistrictId>
-    <ElectoralDistrictId>district_bos_05</ElectoralDistrictId>
-    <LocalityId>locality_1</LocalityId>
-    <Name>Pct 7509/7511</Name>
-  </Precinct>
   <Precinct id="precinct_7512">
     <ElectoralDistrictId>district_sf</ElectoralDistrictId>
     <ElectoralDistrictId>district_bos_05</ElectoralDistrictId>
@@ -1057,12 +1051,6 @@
     <ElectoralDistrictId>district_bos_05</ElectoralDistrictId>
     <LocalityId>locality_1</LocalityId>
     <Name>Pct 7526</Name>
-  </Precinct>
-  <Precinct id="precinct_7527">
-    <ElectoralDistrictId>district_sf</ElectoralDistrictId>
-    <ElectoralDistrictId>district_bos_05</ElectoralDistrictId>
-    <LocalityId>locality_1</LocalityId>
-    <Name>Pct 7527/7528</Name>
   </Precinct>
   <Precinct id="precinct_7527">
     <ElectoralDistrictId>district_sf</ElectoralDistrictId>
