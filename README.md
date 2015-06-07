@@ -4,6 +4,10 @@ Who Can I Vote For?
 Setup
 -----
 
+Pull the repo.  Also pull any submodules:
+
+    $ git submodule update --init --recursive
+
 Use Python 2.7
 
 To regenerate the XML, from the repo root:
