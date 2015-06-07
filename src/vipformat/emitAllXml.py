@@ -1,5 +1,5 @@
 
-from vipformat import candidate, electoralDistrict, precinct
+from vipformat import candidate, electoralDistrict, precinct, office
 
 
 def emitProlog():
@@ -13,8 +13,8 @@ def emitAll():
     ret += precinct.emitAllPrecincts()
     ret += electoralDistrict.emitAllElectoralDistricts()
     ret += candidate.parse_candidates()
+    ret += office.emitAllOffices()
     ret += emitEpilog()
-
     return ret
 
 if __name__=='__main__':
