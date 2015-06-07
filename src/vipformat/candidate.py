@@ -40,7 +40,41 @@
 """
 import csv
 
-import common
+from vipformat import common
+from vipformat.common import pairlistToXml
+
+
+def make_contact_info(line, person_id):
+    """
+    <xs:complexType name="ContactInformation">
+      <xs:sequence>
+        <xs:element name="AddressLine" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="Email" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="Fax" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+        <!-- Note: The "Hours" element is being deprecated and will be removed
+             in future versions of VIP.
+          -->
+        <xs:element name="Hours" type="InternationalizedText" minOccurs="0" />
+        <xs:element name="HoursOpenId" type="xs:IDREF" minOccurs="0" />
+        <!-- This can be a person or place name. -->
+        <xs:element name="Name" type="xs:string" minOccurs="0" />
+        <xs:element name="Phone" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="Uri" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="identifier" type="xs:string" use="required" />
+    </xs:complexType>
+    """
+    identifier = "person_{0}".format(person_id)
+    address = line[5]
+    email = line[7]
+    phone = line[6]
+    d = [
+        ('AddressLine', address),
+        ('Email', email),
+        ('Phone', phone),
+    ]
+    xml = pairlistToXml('ContactInformation', d, identifier=identifier)
+    return xml
 
 
 def line_to_xml(line):
@@ -50,11 +84,14 @@ def line_to_xml(line):
       Address & Zip, Telephone, Email, FileDate
     """
     person_id = line[0]
+    xml = make_contact_info(line, person_id=person_id)
     name = line[4]
     d = [
         ('name', name),
     ]
-    return common.pairlistToXml('Person', d, object_id=person_id)
+    xml += pairlistToXml('Person', d, object_id=person_id)
+
+    return xml
 
 
 def parse_candidates():

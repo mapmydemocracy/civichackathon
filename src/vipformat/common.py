@@ -20,14 +20,17 @@ def csv_lines(base_name):
         for line in csvreader:
             yield line
 
-def pairlistToXml(elemName, contents, object_id=None):
-    elemParams = ''
+def make_attr(key, value):
+    return '{0}="{1}"'.format(key, value)
+
+def pairlistToXml(elemName, contents, object_id=None, identifier=None):
+    attrs = ''
     if object_id is not None:
-        elemParams = 'id="{0}"'.format(object_id)
-    ret = '<' + elemName
-    if elemParams:
-        ret = ret + ' ' + elemParams
-    ret = ret + '>\n'
+        attrs += ' {0}'.format(make_attr('id', object_id))
+    if identifier is not None:
+        attrs += ' {0}'.format(make_attr('identifier', identifier))
+
+    ret = "<{0}{1}>\n".format(elemName, attrs)
     for (k,v) in contents:
         ret = ret + '    <' + k + '>' + v + '</' + k + '>\n'
     ret = ret + '</' + elemName + '>\n'
