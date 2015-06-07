@@ -82,7 +82,8 @@ def line_to_xml(line):
       PersonId, Office, Office_ID, CandidatePreElectionStatus, Name,
       Address & Zip, Telephone, Email, FileDate
     """
-    person_id = "person_{0}".format(line[0])
+    person_number = line[0]
+    person_id = "person_{0}".format(person_number)
 
     file_date = line[8]
     name = line[4]
@@ -97,13 +98,21 @@ def line_to_xml(line):
     xml = pairlistToXml('Person', d, object_id=person_id)
 
     # Candidate object
+    candidate_id = "candidate_{0}".format(person_number)
     d = [
         ('BallotName', name),
         ('FileDate', file_date),
-        ('PersonId', name),
+        ('PersonId', person_id),
         ('PreElectionStatus', pre_election_status),
     ]
-    xml += pairlistToXml('Candidate', d, object_id=person_id)
+    xml += pairlistToXml('Candidate', d, object_id=candidate_id)
+
+    # CandidateSelection object
+    selection_id = "selection_{0}".format(person_number)
+    d = [
+        ('CandidateId', candidate_id),
+    ]
+    xml += pairlistToXml('CandidateSelection', d, object_id=selection_id)
 
     return xml
 
