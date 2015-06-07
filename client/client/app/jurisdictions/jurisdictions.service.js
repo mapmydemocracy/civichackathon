@@ -6,7 +6,7 @@ angular.module('clientApp')
     {
       jurisdictions: [
         {
-          name: 'jurisdiction_one',
+          name: 'San Francisco',
           offices : [
             {
               name: "Mayor",
@@ -15,22 +15,40 @@ angular.module('clientApp')
             {
               name: "Supervisor",
               districts: [
-                { name: "District 1",
+                { name: "District 3",
                   contests: [
                     {
-                      date: "11/05/2015",
+                      name: new Date('2015', '11', '05').toString(),
                       candidates: [
-                        {name: "Candidate A"},
-                        {name: "Candidate B"}
+                        {name: "Julie Christensen"},
+                        {name: "Aaron Peskin"}
                       ]
+                    },
+                    {
+                     name: new Date('2016', '11', '05').toString(),
+                      candidates: []
                     }
                   ]
               },
-                {name: "District 2"}
+              {name: "District 4"},
+              {name: "District 5"},
+              {name: "District 7"},
+              {name: "District 11"}
+
               ]
-            }
+            },
+
+            {name : "City Attorney"}
           ]
-        }
+        },
+        {
+          name : 'BART',
+          districts : [] 
+        },
+        {
+          name : 'San Francisco Unified School District',
+          districts : [] 
+        },
       ]
         
     }
@@ -58,43 +76,44 @@ angular.module('clientApp')
 
     o.addDistrict = function(jurisdiction, office, district){
       // o.jurisdictions[jurisdiction][office]['districts'].push({name: district, contests:[]})
-      
-      // var jurisdiction_offices = o.parseObjArray(o.jurisdictions, office);
+      var jurisdiction_offices = o.parseObjArray(o.jurisdictions, jurisdiction).offices;
 
-      // var office_districts = parseObjArray(jurisdiction_offices, district);
+      console.log(jurisdiction_offices.offices)
 
-      // office_districts.push(district)
+      // var office_districts = o.parseObjArray(jurisdiction_offices, district);
+
+      jurisdiction_offices.push({name:district, contests:[]})
 
       console.log('Adding district ', district)
     }
 
-    // o.addContest = function(jurisdiction, office, district, contest){
-    //   // o.jurisdictions[jurisdiction][office][district]['contests'].push({date: contest, candidates:[]})
+    o.addContest = function(jurisdiction, office, district, contest){
+      // o.jurisdictions[jurisdiction][office][district]['contests'].push({date: contest, candidates:[]})
 
-    //   var jurisdiction_offices = parseObjArray(o.jurisdictions, office);
+/*      var jurisdiction_offices = parseObjArray(o.jurisdictions, office);
 
-    //   var office_districts = parseObjArray(jurisdiction_offices, district);
+      var office_districts = parseObjArray(jurisdiction_offices, district);
 
-    //   var district_contests = parseObjArray(office_districts)
+      var district_contests = parseObjArray(office_districts)
 
-    //   district_contests.push(contest)
+      district_contests.push(contest)*/
 
 
-    //   contests.log('Adding contest ', district)
-    // }
+      console.log('Adding contest ', contest)
+    }
 
-    // o.addCandidate = function(jurisdiction, office, district, contest, candidates){
-    //   // o.jurisdictions.jurisdiction.office.district.contest['candidates'].push({name: contest, candidates:[]})
+    o.addCandidate = function(jurisdiction, office, district, contest, candidate){
+      // o.jurisdictions.jurisdiction.office.district.contest['candidates'].push({name: contest, candidates:[]})
 
-    //   var jurisdiction_offices = parseObjArray(o.jurisdictions, office);
+/*      var jurisdiction_offices = parseObjArray(o.jurisdictions, office);
 
-    //   var office_districts = parseObjArray(jurisdiction_offices, district);
+      var office_districts = parseObjArray(jurisdiction_offices, district);
 
-    //   var district_contests = parseObjArray(office_districts)
+      var district_contests = parseObjArray(office_districts)*/
 
-    //   // var contest_candidates = parseObjArray(district_contests, candidates)
-    //   contests.log('Adding contest ', district)
-    // }
+      // var contest_candidates = parseObjArray(district_contests, candidates)
+      console.log('Adding candidate ', candidate)
+    }
 
 
     return o

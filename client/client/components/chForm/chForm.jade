@@ -5,10 +5,9 @@ div
 
     div.row
       div.col-md-8
-        h3(ng-hide="type == 'contest'") {{item.name}}
-        h3(ng-show="type == 'contest'") {{item.date}}
+        h3 {{item.name}}
 
-  div.row(ng-hide="type == 'contest'")
+  div.row
     form.col-md-8
       div.form-group
         input#inputjurisdictionname.form-control(ng-model="newInput",type="text",placeholder="{{type}} name")
@@ -16,10 +15,10 @@ div
         button(type="button",ng-click="add[type](newInput)").btn.btn-primary
           text Add
 
-  div.row(ng-show="type == 'contest'")
-      form.col-md-8
-        div.form-group
-          input#inputjurisdictionname.form-control(ng-model="newInput",type="date")
-        div.form-group
-          button(type="button",ng-click="add[type](newInput)").btn.btn-primary
-            text Add
+  //- div.row(ng-show="type === 'contest'")
+  //-     form.col-md-8
+  //-       div.form-group
+  //-         input#inputjurisdictionname.form-control(ng-model="newInput",type="date")
+  //-       div.form-group
+  //-         button(type="button",ng-click="add[type](newInput)").btn.btn-primary
+  //-           text Add

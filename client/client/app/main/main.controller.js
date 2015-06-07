@@ -9,12 +9,10 @@ angular.module('clientApp')
 
 
 
-    $scope.jurisdiction_name = "jurisdiction_one"
-    $scope.office_name = "Supervisor"
-    $scope.district_name = "District 1"
-
-
-
+    $scope.jurisdiction_name = "San Francisco";
+    $scope.office_name = "Supervisor";
+    $scope.district_name = "District 3";
+    $scope.contest_date = new Date('2015', '11', '05').toString();
 
 
 
@@ -35,9 +33,10 @@ angular.module('clientApp')
 
     $scope.district = jurisdictions.parseObjArray($scope.office.districts, $scope.district_name)    
 
-    console.log($scope.district)
+    $scope.contest = jurisdictions.parseObjArray($scope.district.contests, $scope.contest_date)
 
-
+    console.log($scope.district.contests)
+    console.log($scope.contest)
 
 
 
@@ -54,12 +53,14 @@ angular.module('clientApp')
       },
 
       district: function(district){
-        console.log($scope.jurisdiction_name , $scope.office_name, $scope.newDistrict)
-        jurisdictions.addDistrict($scope.jurisdiction_name , $scope.office_name, $scope.newDistrict)
+        console.log($scope.jurisdiction_name , $scope.office_name, district)
+        jurisdictions.addDistrict($scope.jurisdiction_name , $scope.office_name, district)
       },
 
       contest: function(contest){
-        jurisdictions.addContest($scope.newContest)
+        console.log(contest)
+        console.log($scope.jurisdiction_name , $scope.office_name, $scope.district_name, contest)
+        jurisdictions.addContest($scope.jurisdiction_name , $scope.office_name, $scope.district_name, contest)
       },
 
       candidate:function(candidate){
