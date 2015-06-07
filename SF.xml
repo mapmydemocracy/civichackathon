@@ -4232,99 +4232,267 @@
   <CandidateId>candidate_34</CandidateId>
 </CandidateSelection>
 <Office id="1">
-  <OfficeHolderPersonId>Mayor</OfficeHolderPersonId>
-  <Name>SF</Name>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <Name><Text language="en">Mayor</Text></Name>
 </Office>
+<CandidateContest id="1">
+  <BallotTitle><Text language="en">Mayor</Text></BallotTitle>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>1</OfficeID>
+</CandidateContest>
 <Office id="2">
-  <OfficeHolderPersonId>Assessor-Recorder</OfficeHolderPersonId>
-  <Name>SF</Name>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <Name><Text language="en">Assessor-Recorder</Text></Name>
 </Office>
+<CandidateContest id="2">
+  <BallotTitle><Text language="en">Assessor-Recorder</Text></BallotTitle>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>2</OfficeID>
+</CandidateContest>
 <Office id="3">
-  <OfficeHolderPersonId>City Attorney</OfficeHolderPersonId>
-  <Name>SF</Name>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <Name><Text language="en">City Attorney</Text></Name>
 </Office>
+<CandidateContest id="3">
+  <BallotTitle><Text language="en">City Attorney</Text></BallotTitle>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>3</OfficeID>
+</CandidateContest>
 <Office id="4">
-  <OfficeHolderPersonId>District Attorney</OfficeHolderPersonId>
-  <Name>SF</Name>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <Name><Text language="en">District Attorney</Text></Name>
 </Office>
+<CandidateContest id="4">
+  <BallotTitle><Text language="en">District Attorney</Text></BallotTitle>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>4</OfficeID>
+</CandidateContest>
 <Office id="5">
-  <OfficeHolderPersonId>Public Defender</OfficeHolderPersonId>
-  <Name>SF</Name>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <Name><Text language="en">Public Defender</Text></Name>
 </Office>
+<CandidateContest id="5">
+  <BallotTitle><Text language="en">Public Defender</Text></BallotTitle>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>5</OfficeID>
+</CandidateContest>
 <Office id="6">
-  <OfficeHolderPersonId>Sheriff</OfficeHolderPersonId>
-  <Name>SF</Name>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <Name><Text language="en">Sheriff</Text></Name>
 </Office>
+<CandidateContest id="6">
+  <BallotTitle><Text language="en">Sheriff</Text></BallotTitle>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>6</OfficeID>
+</CandidateContest>
 <Office id="7">
-  <OfficeHolderPersonId>Treasurer</OfficeHolderPersonId>
-  <Name>SF</Name>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <Name><Text language="en">Treasurer</Text></Name>
 </Office>
+<CandidateContest id="7">
+  <BallotTitle><Text language="en">Treasurer</Text></BallotTitle>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>7</OfficeID>
+</CandidateContest>
 <Office id="8">
-  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
-  <Name>SF_01</Name>
+  <ElectoralDistrictID>SF_01</ElectoralDistrictID>
+  <Name><Text language="en">Board of Supervisors</Text></Name>
 </Office>
+<CandidateContest id="8">
+  <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
+  <ElectoralDistrictID>SF_01</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>8</OfficeID>
+</CandidateContest>
 <Office id="9">
-  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
-  <Name>SF_02</Name>
+  <ElectoralDistrictID>SF_02</ElectoralDistrictID>
+  <Name><Text language="en">Board of Supervisors</Text></Name>
 </Office>
+<CandidateContest id="9">
+  <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
+  <ElectoralDistrictID>SF_02</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>9</OfficeID>
+</CandidateContest>
 <Office id="10">
-  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
-  <Name>SF_03</Name>
+  <ElectoralDistrictID>SF_03</ElectoralDistrictID>
+  <Name><Text language="en">Board of Supervisors</Text></Name>
 </Office>
+<CandidateContest id="10">
+  <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
+  <ElectoralDistrictID>SF_03</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>10</OfficeID>
+</CandidateContest>
 <Office id="11">
-  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
-  <Name>SF_04</Name>
+  <ElectoralDistrictID>SF_04</ElectoralDistrictID>
+  <Name><Text language="en">Board of Supervisors</Text></Name>
 </Office>
+<CandidateContest id="11">
+  <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
+  <ElectoralDistrictID>SF_04</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>11</OfficeID>
+</CandidateContest>
 <Office id="12">
-  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
-  <Name>SF_05</Name>
+  <ElectoralDistrictID>SF_05</ElectoralDistrictID>
+  <Name><Text language="en">Board of Supervisors</Text></Name>
 </Office>
+<CandidateContest id="12">
+  <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
+  <ElectoralDistrictID>SF_05</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>12</OfficeID>
+</CandidateContest>
 <Office id="13">
-  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
-  <Name>SF_06</Name>
+  <ElectoralDistrictID>SF_06</ElectoralDistrictID>
+  <Name><Text language="en">Board of Supervisors</Text></Name>
 </Office>
+<CandidateContest id="13">
+  <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
+  <ElectoralDistrictID>SF_06</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>13</OfficeID>
+</CandidateContest>
 <Office id="14">
-  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
-  <Name>SF_07</Name>
+  <ElectoralDistrictID>SF_07</ElectoralDistrictID>
+  <Name><Text language="en">Board of Supervisors</Text></Name>
 </Office>
+<CandidateContest id="14">
+  <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
+  <ElectoralDistrictID>SF_07</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>14</OfficeID>
+</CandidateContest>
 <Office id="15">
-  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
-  <Name>SF_08</Name>
+  <ElectoralDistrictID>SF_08</ElectoralDistrictID>
+  <Name><Text language="en">Board of Supervisors</Text></Name>
 </Office>
+<CandidateContest id="15">
+  <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
+  <ElectoralDistrictID>SF_08</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>15</OfficeID>
+</CandidateContest>
 <Office id="16">
-  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
-  <Name>SF_09</Name>
+  <ElectoralDistrictID>SF_09</ElectoralDistrictID>
+  <Name><Text language="en">Board of Supervisors</Text></Name>
 </Office>
+<CandidateContest id="16">
+  <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
+  <ElectoralDistrictID>SF_09</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>16</OfficeID>
+</CandidateContest>
 <Office id="17">
-  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
-  <Name>SF_10</Name>
+  <ElectoralDistrictID>SF_10</ElectoralDistrictID>
+  <Name><Text language="en">Board of Supervisors</Text></Name>
 </Office>
+<CandidateContest id="17">
+  <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
+  <ElectoralDistrictID>SF_10</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>17</OfficeID>
+</CandidateContest>
 <Office id="18">
-  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
-  <Name>SF_11</Name>
+  <ElectoralDistrictID>SF_11</ElectoralDistrictID>
+  <Name><Text language="en">Board of Supervisors</Text></Name>
 </Office>
+<CandidateContest id="18">
+  <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
+  <ElectoralDistrictID>SF_11</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>18</OfficeID>
+</CandidateContest>
 <Office id="19">
-  <OfficeHolderPersonId>Board of Education</OfficeHolderPersonId>
-  <Name>SF</Name>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <Name><Text language="en">Board of Education</Text></Name>
 </Office>
+<CandidateContest id="19">
+  <BallotTitle><Text language="en">Board of Education</Text></BallotTitle>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>19</OfficeID>
+</CandidateContest>
 <Office id="20">
-  <OfficeHolderPersonId>Community College Board</OfficeHolderPersonId>
-  <Name>SF</Name>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <Name><Text language="en">Community College Board</Text></Name>
 </Office>
+<CandidateContest id="20">
+  <BallotTitle><Text language="en">Community College Board</Text></BallotTitle>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>20</OfficeID>
+</CandidateContest>
 <Office id="21">
-  <OfficeHolderPersonId>BART Board of Directors</OfficeHolderPersonId>
-  <Name>BART_07</Name>
+  <ElectoralDistrictID>BART_07</ElectoralDistrictID>
+  <Name><Text language="en">BART Board of Directors</Text></Name>
 </Office>
+<CandidateContest id="21">
+  <BallotTitle><Text language="en">BART Board of Directors</Text></BallotTitle>
+  <ElectoralDistrictID>BART_07</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>21</OfficeID>
+</CandidateContest>
 <Office id="22">
-  <OfficeHolderPersonId>BART Board of Directors</OfficeHolderPersonId>
-  <Name>BART_08</Name>
+  <ElectoralDistrictID>BART_08</ElectoralDistrictID>
+  <Name><Text language="en">BART Board of Directors</Text></Name>
 </Office>
+<CandidateContest id="22">
+  <BallotTitle><Text language="en">BART Board of Directors</Text></BallotTitle>
+  <ElectoralDistrictID>BART_08</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>22</OfficeID>
+</CandidateContest>
 <Office id="23">
-  <OfficeHolderPersonId>BART Board of Directors</OfficeHolderPersonId>
-  <Name>BART_09</Name>
+  <ElectoralDistrictID>BART_09</ElectoralDistrictID>
+  <Name><Text language="en">BART Board of Directors</Text></Name>
 </Office>
+<CandidateContest id="23">
+  <BallotTitle><Text language="en">BART Board of Directors</Text></BallotTitle>
+  <ElectoralDistrictID>BART_09</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>23</OfficeID>
+</CandidateContest>
 <Office id="24">
-  <OfficeHolderPersonId>Superior Court Judges</OfficeHolderPersonId>
-  <Name>SF</Name>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <Name><Text language="en">Superior Court Judges</Text></Name>
 </Office>
+<CandidateContest id="24">
+  <BallotTitle><Text language="en">Superior Court Judges</Text></BallotTitle>
+  <ElectoralDistrictID>SF</ElectoralDistrictID>
+  <NumberElected>1</NumberElected>
+  <VotesAllowed>1</VotesAllowed>
+  <OfficeID>24</OfficeID>
+</CandidateContest>
 </VipObject>
