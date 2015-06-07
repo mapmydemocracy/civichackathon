@@ -4239,8 +4239,8 @@
     <Name><Text language="en">Mayor</Text></Name>
   </Office>
   <CandidateContest id="1">
-    <BallotTitle><Text language="en">Mayor</Text></BallotTitle>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
+    <Name>Mayor</Name>
     <NumberElected>1</NumberElected>
     <VotesAllowed>1</VotesAllowed>
     <OfficeID>1</OfficeID>
@@ -4272,8 +4272,8 @@
     <Name><Text language="en">City Attorney</Text></Name>
   </Office>
   <CandidateContest id="3">
-    <BallotTitle><Text language="en">City Attorney</Text></BallotTitle>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
+    <Name>City Attorney</Name>
     <NumberElected>1</NumberElected>
     <VotesAllowed>1</VotesAllowed>
     <OfficeID>3</OfficeID>
@@ -4284,8 +4284,8 @@
     <Name><Text language="en">District Attorney</Text></Name>
   </Office>
   <CandidateContest id="4">
-    <BallotTitle><Text language="en">District Attorney</Text></BallotTitle>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
+    <Name>District Attorney</Name>
     <NumberElected>1</NumberElected>
     <VotesAllowed>1</VotesAllowed>
     <OfficeID>4</OfficeID>
@@ -4296,8 +4296,8 @@
     <Name><Text language="en">Sheriff</Text></Name>
   </Office>
   <CandidateContest id="6">
-    <BallotTitle><Text language="en">Sheriff</Text></BallotTitle>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
+    <Name>Sheriff</Name>
     <NumberElected>1</NumberElected>
     <VotesAllowed>1</VotesAllowed>
     <OfficeID>6</OfficeID>
@@ -4309,8 +4309,8 @@
     <Name><Text language="en">Board of Supervisors</Text></Name>
   </Office>
   <CandidateContest id="10">
-    <BallotTitle><Text language="en">Board of Supervisors</Text></BallotTitle>
     <ElectoralDistrictId>SF_03</ElectoralDistrictId>
+    <Name>Board of Supervisors</Name>
     <NumberElected>1</NumberElected>
     <VotesAllowed>1</VotesAllowed>
     <OfficeID>10</OfficeID>
@@ -4324,8 +4324,8 @@
     <Name><Text language="en">Community College Board</Text></Name>
   </Office>
   <CandidateContest id="20">
-    <BallotTitle><Text language="en">Community College Board</Text></BallotTitle>
     <ElectoralDistrictId>SF</ElectoralDistrictId>
+    <Name>Community College Board</Name>
     <NumberElected>1</NumberElected>
     <VotesAllowed>1</VotesAllowed>
     <OfficeID>20</OfficeID>

@@ -15,9 +15,10 @@ def emitOffice(line):
 
 def emitContest(line, candidateIds):
     object_id = line[0]
+    contest_name = line[1]
     d = [
-        ('BallotTitle', '<Text language="en">'+line[1]+'</Text>'),
         ('ElectoralDistrictId', line[5]),
+        ('Name', contest_name),
         ('NumberElected', '1'),
         ('VotesAllowed', '1'),
         ('OfficeID', line[0])
