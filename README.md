@@ -6,6 +6,10 @@ Setup
 
 Use Python 2.7
 
-From the repo root:
+To regenerate the XML, from the repo root:
 
     $ python scripts/make_xml.py
+
+To check the XML, from the repo root:
+
+    $ ./check-xml.sh
