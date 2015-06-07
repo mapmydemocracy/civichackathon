@@ -3926,147 +3926,123 @@
   <Name>Zeng, Jason</Name>
 </Person>
 <OfficeID id="1">
-    <Office>Mayor</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>City</ElectoralDistrict>
+  <OfficeHolderPersonId>Mayor</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>City</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="2">
-    <Office>Assessor-Recorder</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>City</ElectoralDistrict>
+  <OfficeHolderPersonId>Assessor-Recorder</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>City</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="3">
-    <Office>City Attorney</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>City</ElectoralDistrict>
+  <OfficeHolderPersonId>City Attorney</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>City</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="4">
-    <Office>District Attorney</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>City</ElectoralDistrict>
+  <OfficeHolderPersonId>District Attorney</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>City</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="5">
-    <Office>Public Defender</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>City</ElectoralDistrict>
+  <OfficeHolderPersonId>Public Defender</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>City</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="6">
-    <Office>Sheriff</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>City</ElectoralDistrict>
+  <OfficeHolderPersonId>Sheriff</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>City</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="7">
-    <Office>Treasurer</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>City</ElectoralDistrict>
+  <OfficeHolderPersonId>Treasurer</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>City</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="8">
-    <Office>Board of Supervisors</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 1</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 1</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="9">
-    <Office>Board of Supervisors</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 2</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 2</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="10">
-    <Office>Board of Supervisors</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 3</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 3</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="11">
-    <Office>Board of Supervisors</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 4</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 4</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="12">
-    <Office>Board of Supervisors</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 5</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 5</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="13">
-    <Office>Board of Supervisors</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 6</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 6</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="14">
-    <Office>Board of Supervisors</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 7</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 7</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="15">
-    <Office>Board of Supervisors</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 8</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 8</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="16">
-    <Office>Board of Supervisors</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 9</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 9</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="17">
-    <Office>Board of Supervisors</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 10</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 10</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="18">
-    <Office>Board of Supervisors</Office>
-    <Max_Terms>2</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 11</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Supervisors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 11</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="19">
-    <Office>Board of Education</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>City</ElectoralDistrict>
+  <OfficeHolderPersonId>Board of Education</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>City</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="20">
-    <Office>Community College Board</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>City</ElectoralDistrict>
+  <OfficeHolderPersonId>Community College Board</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>City</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="21">
-    <Office>BART Board of Directors</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 7</ElectoralDistrict>
+  <OfficeHolderPersonId>BART Board of Directors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 7</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="22">
-    <Office>BART Board of Directors</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 8</ElectoralDistrict>
+  <OfficeHolderPersonId>BART Board of Directors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 8</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="23">
-    <Office>BART Board of Directors</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>4</Term_Length(Years)>
-    <ElectoralDistrict>District 9</ElectoralDistrict>
+  <OfficeHolderPersonId>BART Board of Directors</OfficeHolderPersonId>
+  <Term>4</Term>
+  <ElectoralDistrictId>District 9</ElectoralDistrictId>
 </OfficeID>
 <OfficeID id="24">
-    <Office>Superior Court Judges</Office>
-    <Max_Terms>unlimited</Max_Terms>
-    <Term_Length(Years)>6</Term_Length(Years)>
-    <ElectoralDistrict>County</ElectoralDistrict>
+  <OfficeHolderPersonId>Superior Court Judges</OfficeHolderPersonId>
+  <Term>6</Term>
+  <ElectoralDistrictId>County</ElectoralDistrictId>
 </OfficeID>
 </VipObject>
