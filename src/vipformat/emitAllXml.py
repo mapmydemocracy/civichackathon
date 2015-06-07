@@ -73,11 +73,11 @@ def make_states():
 def emitAll():
     ret = emitProlog()
     ret += indent(make_states())
-    ret += precinct.emitAllPrecincts()
-    ret += electoralDistrict.emitAllElectoralDistricts()
-    ret += candidate.parse_candidates()
-    ret += office.emitAllOffices()
-    ret += make_locality()
+    ret += indent(precinct.emitAllPrecincts())
+    ret += indent(electoralDistrict.emitAllElectoralDistricts())
+    ret += indent(candidate.parse_candidates())
+    ret += indent(office.emitAllOffices())
+    ret += indent(make_locality())
     ret += emitEpilog()
     return ret
 
