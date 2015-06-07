@@ -48,35 +48,65 @@
 
 
 import csv
-from vipformat import common, electoralDistrict
+from vipformat import common
 from vipformat.common import pairlistToXml
 
-def emitOffice():
-    object_id = ""
-    d = [
-    	('Department', "Elections"), 
-        ('ContactInformation', 
-        	("Address", "1 Dr. Carlton B. Goodlett Place, Room 48 San Francisco, CA 94102"),
-    ]
-    return common.pairlistToXml('ElectionAdministration', d, object_id=object_id)
-    
-def line_to_xml():
+
+def make_contact_info(line, person_id):
+	"""
+	<xs:element name="ContactInformation" type="ContactInformation" minOccurs="0" />
+          <xs:element name="ElectionOfficialPersonId" type="xs:IDREF" minOccurs="0" />
+          <xs:element name="VoterService" minOccurs="0" maxOccurs="unbounded">
+            <xs:complexType>
+              <xs:all>
+                <!--
+                    The contact information below can be used to override or
+                    add specific fields to the base Departmental contact information if
+                    the service has different information.  For example, if the voter
+                    service has its own phone number, the ContactInformation object
+                    below can be an object containing only a Phone element.
+                  -->
+                <xs:element name="ContactInformation" type="ContactInformation" minOccurs="0" />
+                <xs:element name="Description" type="InternationalizedText" minOccurs="0" />
+                <!--
+                    This is for use if a certain person handles the particular service,
+                    for example a contact person for overseas voting.
+                  -->
+                <xs:element name="ElectionOfficialPersonId" type="xs:IDREF" minOccurs="0" />
+                <xs:element name="Type" type="VoterServiceType" minOccurs="0" />
+                <xs:element name="OtherType" type="xs:string" minOccurs="0" />
+              </xs:all>
+            </xs:complexType>
+          </xs:element>
     """
-    Fields:
-        Department, ContactInformation, Address, Phone, Fax, TTY
-    """
-    
-    #ContactInformation object
     d = [
-        ('Address', "1 Dr. Carlton B. Goodlett Place, Room 48 San Francisco, CA 94102"),
+        ("Address", "1 Dr. Carlton B. Goodlett Place, Room 48 San Francisco, CA 94102"),
     	("Phone", "(415) 554-4375"), 
      	("Fax", "(415) 554-7344"), 
         ("TTY", "(415) 554-4386"),
     ]
-    xml = pairlistToXml("ContactInformation", d, object_id=person_id)
+    xml = pairlistToXml('ContactInformation', d, identifier=person_id)
+    return xml
+    
+def line_to_xml(line):
+    """
+    Fields:
+        Department, ContactInformation, Address, Phone, Fax, TTY
+    """
+    person_id = ""
+    contact_info_xml = make_contact_info(line, person_id=person_id)
+    d = [
+    	('Department', "Elections"), 
+    	contact_info_xml,
+    ]
+    xml = pairlistToXml('ElectionAdministration', d, object_id=object_id)
 
     return xml
 
-             
+def parse():
+	line = ''
+	xml = line_to_xml(line)
+	return xml
+
 if __name__=='__main__':
-    print emitOffice()
+    make_administration_xml()
