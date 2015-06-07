@@ -14,6 +14,6 @@ To regenerate the XML, from the repo root:
 
     $ python scripts/make_xml.py
 
-To check the XML, from the repo root:
+To check the XML, from the repo root (you need `xmllint` installed):
 
     $ ./check-xml.sh
