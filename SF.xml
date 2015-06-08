@@ -4,6 +4,7 @@
     <Name>California</Name>
   </State>
   <Locality id="locality_1">
+    <ElectionAdministrationId>election_admin_1</ElectionAdministrationId>
     <ExternalIdentifiers>
       <ExternalIdentifier>
         <Type>ocd-id</Type>

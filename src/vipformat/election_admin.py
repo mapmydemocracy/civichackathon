@@ -52,6 +52,8 @@ from vipformat import common
 from vipformat.common import pairlistToXml
 
 
+SF_ELECTION_ADMIN_ID = "election_admin_1"
+
 def make_contact_info_xml():
     """
     <xs:complexType name="ContactInformation">
@@ -108,9 +110,8 @@ def make_election_administration_xml():
     Fields:
         Department, ContactInformation, Address, Phone, Fax, TTY
     """
-    election_admin_id = "election_admin_1"
     department_xml = make_department_xml()
     d = [department_xml]
-    xml = pairlistToXml('ElectionAdministration', d, object_id=election_admin_id)
+    xml = pairlistToXml('ElectionAdministration', d, object_id=SF_ELECTION_ADMIN_ID)
 
     return xml

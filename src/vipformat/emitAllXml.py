@@ -41,8 +41,7 @@ def make_locality():
     </ExternalIdentifiers>
     """)
     d = [
-        # TODO: Add ElectionAdministration.
-        # ('ElectionAdministrationId', 0),
+        ('ElectionAdministrationId', election_admin.SF_ELECTION_ADMIN_ID),
         external_identifiers_xml,
         ('Name', 'San Francisco'),
         ('StateId', CA_STATE_ID),
