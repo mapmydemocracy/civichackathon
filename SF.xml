@@ -27,6 +27,7 @@
         <Uri>http://sfelections.org</Uri>
       </ContactInformation>
     </Department>
+    <ElectionsUri>http://sfelections.org</ElectionsUri>
   </ElectionAdministration>
   <Precinct id="precinct_1101">
     <ElectoralDistrictId>district_sf</ElectoralDistrictId>
