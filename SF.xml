@@ -14,6 +14,19 @@
     <StateId>state_ca</StateId>
     <Type>county</Type>
   </Locality>
+  <ElectionAdministration id="election_admin_1">
+    <Department>
+      <ContactInformation identifier="contact_info_department">
+        <AddressLine>Department of Elections</AddressLine>
+        <AddressLine>1 Dr. Carlton B. Goodlett Place, Room 48</AddressLine>
+        <AddressLine>San Francisco, CA 94102</AddressLine>
+        <Fax>(415) 554-7344</Fax>
+        <Name>San Francisco Department of Elections</Name>
+        <Phone>(415) 554-4375</Phone>
+        <Uri>http://sfelections.org</Uri>
+      </ContactInformation>
+    </Department>
+  </ElectionAdministration>
   <Precinct id="precinct_1101">
     <ElectoralDistrictId>district_sf</ElectoralDistrictId>
     <ElectoralDistrictId>district_bos_11</ElectoralDistrictId>
