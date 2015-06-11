@@ -29,6 +29,11 @@
     </Department>
     <ElectionsUri>http://sfelections.org</ElectionsUri>
   </ElectionAdministration>
+  <ElectionAdministration identifier="person_director">
+    <FirstName>JOHN</FirstName>
+    <LastName>ARNTZ</LastName>
+    <Title>Director of Elections</Title>
+  </ElectionAdministration>
   <Precinct id="precinct_1101">
     <ElectoralDistrictId>district_sf</ElectoralDistrictId>
     <ElectoralDistrictId>district_bos_11</ElectoralDistrictId>
