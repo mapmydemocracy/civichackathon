@@ -3,7 +3,7 @@ import textwrap
 
 from vipformat.common import indent
 from vipformat import (candidate, common, election_admin, electoralDistrict,
-                       office, precinct, departmentElectionOfficalPersonID)
+                       office, precinct) 
 
 
 CA_STATE_ID = 'state_ca'
@@ -77,7 +77,6 @@ def emitAll():
     ret += indent(make_states())
     ret += indent(make_locality())
     ret += indent(election_admin.make_election_administration_xml())
-    ret += indent(departmentElectionOfficalPersonID.make_person_info_xml())
     ret += indent(precinct.emitAllPrecincts())
     ret += indent(electoralDistrict.emitAllElectoralDistricts())
     ret += indent(candidate.parse_candidates())

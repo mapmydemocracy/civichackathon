@@ -58,6 +58,31 @@ def make_department_xml():
 
     return xml
 
+def make_person_info_xml():
+    """
+    <Person id="per50001">
+        <ContactInformation identifier="ci60002">
+            <Email>rwashburne@albemarle.org</Email>
+            <Phone>4349724173</Phone>
+        </ContactInformation>
+        <FirstName>RICHARD</FirstName>
+        <LastName>WASHBURNE</LastName>
+        <MiddleName>J.</MiddleName>
+        <Nickname>JAKE</Nickname>
+        <Title>
+            <Text language="en">General Registrar Physical</Text>
+        </Title>
+    </Person>
+    """
+    identifier = "person_director"
+    d = [
+        ("FirstName", "JOHN"), 
+        ("LastName", "ARNTZ"),
+        ("Title", "Director of Elections"),
+    ]
+    xml = pairlistToXml('ElectionAdministration', d, identifier=identifier)
+    return xml
+
 def make_election_administration_xml():
     """
     <xs:complexType name="ElectionAdministration">
@@ -78,9 +103,11 @@ def make_election_administration_xml():
     </xs:complexType>
     """
     department_xml = make_department_xml()
+    person_xml = make_person_info_xml()
     d = [
         department_xml,
         ("ElectionsUri", "http://sfelections.org"),
+        person_xml,
     ]
     xml = pairlistToXml('ElectionAdministration', d, object_id=SF_ELECTION_ADMIN_ID)
 
